@@ -1,0 +1,30 @@
+SUJET NON TROUVE
+================
+
+Aucun sujet officiel n'a ete retrouve dans Project/ pour ce projet.
+Ce fichier a ete redige par retro-analyse du code source (il ne remplace
+pas le sujet d'origine et peut contenir des approximations).
+
+Projet     : React-Carnet-Book
+Type       : projet personnel (auto-formation menee pendant le stage de
+             Tek2). Ce n'est pas un projet Epitech : il n'y a ni sujet ni
+             note, et aucun grade.txt n'est ecrit.
+Langage    : JavaScript
+Techno     : React (create-react-app)
+
+BUT DU PROJET
+Premier exercice d'apprentissage de React, realise pendant le stage :
+afficher un carnet de contacts.
+
+CE QUE FAIT LE CODE
+L'application recupere la liste d'utilisateurs de l'API publique de test
+https://jsonplaceholder.typicode.com/users et l'affiche sous forme de carnet
+d'adresses. Structure classique create-react-app : src/index.js, src/App.js,
+src/Style/, src/image/.
+
+Le README.md du dossier documente deja le projet (objectif, capture d'ecran,
+commandes npm install / npm start).
+
+POINTS INCERTAINS
+- Aucun : il s'agit d'un exercice personnel, il n'y a jamais eu de sujet
+  officiel Epitech.

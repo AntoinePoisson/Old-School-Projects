@@ -1,0 +1,29 @@
+SUJET NON TROUVE
+================
+
+Aucun sujet officiel n'a ete retrouve dans Project/ pour ce projet.
+Ce fichier a ete redige par retro-analyse du code source (il ne remplace
+pas le sujet d'origine et peut contenir des approximations).
+
+Projet     : BrickBreaker_Python
+Module     : aucun (projet personnel, dossier Projet_Bidouille de Tek3).
+             Pas de note associee : aucun grade.txt n'est ecrit.
+Langage    : Python 3
+Techno     : pygame
+
+BUT DU PROJET
+Recoder le jeu d'arcade casse-briques (Breakout).
+
+CE QUE FAIT LE CODE
+- run.py       : point d'entree. Initialise pygame, lance la musique de fond
+                 en boucle (musics/sound_arcade.wav), ouvre une fenetre de
+                 450x450 intitulee "Brick Breaker", affiche le menu d'accueil
+                 (images/background_home_menu.png) et gere les zones
+                 cliquables (pygame.Rect) pour demarrer ou quitter.
+- game.py      : boucle de jeu (gameLoop) - raquette, balle, briques,
+                 rebonds et collisions.
+- entities.py  : definition des objets du jeu (balle, raquette, briques).
+- endGame.py   : ecrans de fin, avec images/win.png et images/loose.png.
+
+POINTS INCERTAINS
+- Aucun : projet personnel sans sujet.

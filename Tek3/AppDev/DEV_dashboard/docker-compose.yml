@@ -1,0 +1,55 @@
+version: '3'
+services:
+  react:
+    build: ./front/
+    restart: always
+    depends_on:
+     - db
+    environment:
+      CHOKIDAR_USEPOLLING: "true"
+      HOST_BACK: "localhost:8080"
+    ports:
+      - 3000:3000
+    volumes:
+      - ./front/:/app/front:z
+
+  golang:
+    build: ./back/
+    restart: always
+    ports:
+      - 8080:8080
+    volumes:
+      - ./back/:/go/app:z
+    environment:
+      CHOKIDAR_USEPOLLING: "true"
+    depends_on:
+     - db
+
+  db:
+    image: mysql
+    restart: always
+    ports:
+      - 6033:3306
+    volumes:
+      - dbdata:/var/lib/mysql:z ## Faut mettre ça en commentaire pour pas reload la database
+      - ./mysql-dump:/docker-entrypoint-initdb.d:z ## MARCHE PAS !!!!!!!!!!!!!
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: db
+      MYSQL_USER: user
+      MYSQL_PASSWORD: password
+
+  phpmyadmin:
+    image: phpmyadmin
+    restart: always
+    depends_on:
+     - db
+    ports:
+      - 8082:80
+    environment:
+      PMA_ARBITRARY: 1
+      PMA_HOST: db
+      PMA_PORT: 3306
+
+volumes:
+  dbdata:

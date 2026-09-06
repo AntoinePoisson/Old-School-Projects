@@ -1,0 +1,54 @@
+version: "3"
+services:
+  my_jenkins:
+    build:
+      context: .
+    container_name: jenkins
+    restart: "always"
+    privileged: true
+    ports:
+      - 8080:8080
+      - 50000:50000
+    volumes:
+      - ./my_marvin.yml:/var/lib/jenkins/init-configs
+      # - ./jenkins_home:/var/jenkins_home
+    environment:
+      USER_CHOCOLATEEN_PASSWORD: "123"
+      USER_VAUGIE_G_PASSWORD: "123"
+      USER_I_DONT_KNOW_PASSWORD: "123"
+      USER_NASSO_PASSWORD: "123"
+      JAVA_OPTS: -Djenkins.install.runSetupWizard=false
+      CASC_JENKINS_CONFIG: /var/lib/jenkins/init-configs
+      JENKINS_USERNAME: chocolateen ## pas utile
+      JENKINS_PASSWORD: 123
+      # JENKINS_PASSWORD: c4d593eca52c4c8788c48badaf38a411 ## pas utile
+
+    # command: /usr/local/bin/install-plugins.sh cloudbees-folder configuration-as-code credentials github job-dsl script-security structs role-strategy ws-cleanup
+# c4d593eca52c4c8788c48badaf38a411
+    # user: root
+    # container_name: jenkins
+    # volumes:
+      # - ./:/var/jenkins_home
+    #   - /var/run/docker.sock:/var/run/docker.sock
+      # - /usr/local/bin/docker:/usr/local/bin/docker
+
+
+# version: "3"
+# services:
+#   jenkins:
+#     image: "jenkins/jenkins:latest"
+#     restart: "always"
+#     command: /usr/local/bin/install-plugins.sh cloudbees-folder configuration-as-code credentials github job-dsl script-security structs role-strategy ws-cleanup
+#     ports:
+#         - 8080:8080
+#         - 5000:5000
+#     container_name: jenkins
+#     volumes:
+#       - /var/run/docker.sock:/var/run/docker.sock
+#       - "./my_marvin.yml:/var/lib/jenkins/init-configs"
+#     environment:
+#       JENKINS_USERNAME: user
+#       JENKINS_PASSWORD: bitnami
+
+# volumes:
+#     -

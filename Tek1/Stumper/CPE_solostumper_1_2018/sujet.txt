@@ -1,0 +1,34 @@
+SUJET NON TROUVE
+================
+
+Aucun sujet officiel n'a ete retrouve dans Project/ pour ce projet.
+Ce fichier a ete redige par retro-analyse du code source (il ne remplace
+pas le sujet d'origine et peut contenir des approximations).
+
+Projet     : solostumper 1 - tri alphabetique de mots
+Module     : B-CPE-130 - B1 Solo Stumpers (module "Acquis", pas de note
+             lettre : aucun grade.txt n'est ecrit pour ce projet)
+Langage    : C (Makefile, lib maison lib/my)
+
+BUT DU PROJET
+Prendre une chaine de caracteres passee en argument, la decouper en mots et
+afficher ces mots tries par ordre alphabetique.
+
+USAGE
+    ./solostumper "une chaine de mots"
+
+CE QUE FAIT LE CODE
+- check_error.c            : validation des arguments (retour 1 = on ne fait
+                             rien et on sort proprement).
+- my_str_to_word_array.c   : decoupe av[1] en tableau de mots et renvoie le
+                             nombre de mots via un pointeur (size).
+- init_tab.c               : initialisation du tableau de travail.
+- analyze_chara.c          : comparaison caractere par caractere, base de la
+                             relation d'ordre.
+- sort_alpha.c             : tri du tableau de mots et affichage.
+
+POINTS INCERTAINS
+- On ne sait pas si le sujet imposait un critere de tri particulier
+  (insensible a la casse, gestion des chiffres, ordre inverse...).
+  analyze_chara.c laisse penser a une comparaison faite a la main plutot
+  qu'un simple strcmp.

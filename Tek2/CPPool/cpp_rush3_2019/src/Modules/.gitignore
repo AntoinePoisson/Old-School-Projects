@@ -1,0 +1,14 @@
+.vscode
+a.out
+mainee.cpp
+pasPush/
+my
+out
+vgcore.*
+*~
+.idea
+*.gcda
+*.gcno
+*.o
+unit_tests
+test.cpp

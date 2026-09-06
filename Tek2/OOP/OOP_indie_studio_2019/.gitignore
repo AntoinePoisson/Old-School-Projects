@@ -1,0 +1,47 @@
+# Libraries
+*.o
+*.a
+
+# Emacs
+*~
+\#*#
+
+# Include
+includes/resolution.hpp
+
+# Executables
+.settings
+.settingsQuality
+ressources/.saves
+.settingsAudio
+bomberman
+pasPush/
+libmy_mallocAA*
+fclean
+build
+*.out
+unit_tests
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Test Unitaire
+*.gc*
+*.h.gch
+mainee.c*
+
+# VALGRING
+vgcore.*
+
+# VSCODE
+*.vscode
+
+# SETTINGS
+.settings
+
+# CMake
+cmake_install.cmake
+CMakeCache.txt
+CMakeFiles/
+build/

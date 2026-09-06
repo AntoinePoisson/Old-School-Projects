@@ -1,0 +1,44 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  namespace: kube-public
+  name: traefik-deployment
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      k8s-app: traefik-ingress-lb
+  template:
+    metadata:
+      labels:
+        k8s-app: traefik-ingress-lb
+        name: traefik-ingress-lb
+    spec:
+      restartPolicy: Always
+      serviceAccountName: traefik-ingress-controller
+      terminationGracePeriodSeconds: 60
+      containers:
+        - image: traefik:v1.7
+          name: traefik-ingress-lb
+          ports:
+            - name: http
+              containerPort: 30021
+            - name: admin
+              containerPort: 30042
+          args:
+            - --api
+            - --kubernetes
+      affinity:
+        podAntiAffinity:
+          requiredDuringSchedulingIgnoredDuringExecution:
+            - labelSelector:
+                matchExpressions:
+                  - key: app
+                    operator: In
+                    values:
+                    - postgres
+                  - key: app
+                    operator: In
+                    values:
+                    - redis
+              topologyKey: "localhost:30042"

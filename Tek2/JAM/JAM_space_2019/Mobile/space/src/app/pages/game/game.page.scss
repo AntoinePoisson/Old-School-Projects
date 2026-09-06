@@ -1,0 +1,104 @@
+#container {
+    text-align: center;
+  
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  #container strong {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  
+  #container p {
+    font-size: 16px;
+    line-height: 22px;
+  
+    color: #8c8c8c;
+  
+    margin: 0;
+  }
+  
+  #container a {
+    text-decoration: none;
+  }
+  
+  ion-content ion-toolbar {
+    --background: translucent;
+  }
+  
+  body {
+    background: #e7e8e9;
+    padding: 40px;
+  }
+
+  .wrong {
+      background-image: linear-gradient(to right, #ff0000 0%, #bd0000 100%) !important;
+  }
+
+  .win {
+      background-image: linear-gradient(to right, #23d400 0%, #0b8500 100%) !important;
+  }
+  
+  .btn {
+      background-image: linear-gradient(to right, #1a1a1a 0%, #2e2e2e 100%);
+      border-radius: 40px;
+      box-sizing: border-box;
+      color: #ffffff;
+      display: block;
+      font: 1.125rem 'Oswald', Arial, sans-serif; /*18*/
+      height: 80px;
+      letter-spacing: 1px;
+      margin: 0 auto;
+      padding: 4px;
+      position: relative;
+      text-decoration: none;
+      text-transform: uppercase;
+      // width: 264px;
+      z-index: 2;
+  }
+  
+  .btn:hover {
+      color: #fff;
+  }
+  
+  .btn span {
+      align-items: center;
+      background: rgba(0, 0, 0, 0.2);
+      border-radius: 40px;
+      display: flex;
+      justify-content: center;
+      height: 100%;
+      transition: background .5s ease;
+      width: 100%;
+  }
+  
+  .btn:hover span {
+      background: transparent;
+  }
+  
+  span {
+      align-items: center;
+      display: flex;
+    justify-content: center;
+    color: white;
+      font: 1.125rem 'Oswald', Arial, sans-serif; /*18*/
+      letter-spacing: 1px;
+    text-decoration: none;
+      text-transform: uppercase;
+  }
+  
+  input {
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 40px;
+    border: none;
+    box-sizing: border-box;
+    padding: 4px;
+    outline: none !important;
+    color: white;
+    text-align: center;
+  }
+  

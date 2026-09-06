@@ -1,0 +1,58 @@
+# Libraries
+*.o
+*.a
+*.db
+
+# Log
+*.log
+
+# Emacs
+*~
+\#*#
+.#*
+
+# Executables
+zia
+zia_tests
+pasPush/
+run
+*.out
+unit_tests
+*.app
+*.i*86
+*.exe
+*.x86_64
+*.hex
+strace.*
+
+# Test Unitaire
+*.gc*
+*.h.gch
+mainee.c*
+
+# Valgrind
+vgcore.*
+
+# Visual Studio
+.vs
+
+# CMake
+cmake_install.cmake
+CMakeCache.txt
+CMakeFiles/
+build/
+
+# Conan
+conan.lock
+conanbuildinfo.cmake
+conanbuildinfo.txt
+conaninfo.txt
+graph_info.json
+
+# SSL certificat
+*.pem
+
+# Other
+pasPush/
+tmp/
+tmp2/

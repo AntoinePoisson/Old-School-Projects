@@ -1,0 +1,40 @@
+SUJET NON TROUVE
+================
+
+Aucun sujet officiel n'a ete retrouve dans Project/ pour ce projet.
+Ce fichier a ete redige par retro-analyse du code source (il ne remplace
+pas le sujet d'origine et peut contenir des approximations).
+
+Projet     : 104intersection
+Module     : B-MAT-100 - B1 Mathematics
+Note       : A (voir grade.txt)
+Langage    : C (Makefile, lib maison lib/my, -lm)
+
+BUT DU PROJET
+Calculer les points d'intersection entre une droite de l'espace et une
+surface quadrique (sphere, cylindre ou cone), et les afficher.
+
+USAGE (deduit de main.c / display.c / check_error.c)
+    ./104intersection type x y z dx dy dz param
+  av[1] = type de surface : 1 = sphere, 2 = cylindre, 3 = cone
+  av[2..4] = point (x, y, z) par lequel passe la droite
+  av[5..7] = vecteur directeur (dx, dy, dz) de la droite
+  av[8] = rayon (sphere / cylindre) ou angle en degres (cone)
+
+CE QUE FAIT LE CODE
+- calcul_equa_parametric.c : construit l'equation parametrique de la droite
+  a partir du point et du vecteur directeur (struct equa_parametric_t).
+- intersection_line_and_sphere / _cylinder / _cone : substituent l'equation
+  parametrique dans l'equation de la surface, ce qui donne une equation du
+  second degre en t.
+- calcul_second_degree.c : calcule le discriminant et resout at^2+bt+c=0.
+- display.c : rappelle l'enonce ("Sphere of radius ...", "Line passing
+  through the point (...) and parallel to the vector (...)") puis affiche
+  "No intersection point." si delta < 0, un point si delta = 0, deux points
+  si delta > 0, coordonnees au format (%.3f, %.3f, %.3f).
+- check_error.c : validation des arguments, retour 84 en cas d'erreur.
+
+POINTS INCERTAINS
+- Le nom exact du 4e cas (plan / "intersection_line_and_area.c" present dans
+  les sources) n'est pas branche dans main.c : il semble inutilise ou etre
+  un debut de bonus.

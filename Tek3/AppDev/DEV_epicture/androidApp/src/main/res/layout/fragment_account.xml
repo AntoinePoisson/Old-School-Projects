@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        tools:context=".Account" android:layout_width="match_parent" android:layout_height="match_parent">
+
+        <ScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+        <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                        android:src="@drawable/background_login_page"
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:id="@+id/cover_image_view"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        android:scaleType="centerCrop" app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintVertical_bias="0.009"/>
+
+                <androidx.cardview.widget.CardView
+                        xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/card_view_icon_avatar"
+                        android:background="#474a51"
+                        app:cardCornerRadius="35dp"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:layout_marginTop="44dp"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        android:layout_marginStart="16dp"
+                        android:elevation="10dp">
+                        <ImageView
+                                android:layout_width="70dp"
+                                android:layout_height="70dp"
+                                android:scaleType="centerCrop"
+                                tools:src="@tools:sample/avatars"
+                                android:id="@+id/avatar"/>
+                </androidx.cardview.widget.CardView>
+                <TextView
+                        android:text="TextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/username_label"
+                        android:textSize="38dp"
+                        android:layout_marginTop="52dp"
+                        android:textStyle="bold"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/card_view_icon_avatar"
+                        app:layout_constraintEnd_toStartOf="@+id/upload_button" android:layout_marginStart="8dp"
+                        app:layout_constraintHorizontal_bias="0.021"/>
+                <ImageButton
+                        android:src="@drawable/ic_up_arrow"
+                        android:background="@android:color/transparent"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:id="@+id/upload_button"
+                        android:layout_marginTop="11dp"
+                        app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent"
+                        android:layout_marginEnd="60dp"/>
+                <ImageButton
+                        android:src="@drawable/ic_logout"
+                        android:background="@android:color/transparent"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:id="@+id/logout_button"
+                        android:layout_marginTop="12dp"
+                        app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent"
+                        android:layout_marginEnd="16dp"/>
+                <androidx.recyclerview.widget.RecyclerView
+                        android:cacheColorHint="@android:color/transparent"
+                        android:divider="@android:color/transparent"
+                        android:dividerHeight="10dp"
+                        android:fadingEdge="none"
+                        android:padding="10dp"
+                        android:listSelector="@android:color/transparent"
+                        android:layout_width="match_parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintVertical_bias="1.0"
+                        android:layout_height="match_parent" android:id="@+id/account_rec_view"
+                        app:layout_constraintTop_toBottomOf="@+id/cover_image_view">
+                </androidx.recyclerview.widget.RecyclerView>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
+</LinearLayout>

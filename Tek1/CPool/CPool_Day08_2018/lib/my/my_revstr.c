@@ -1,0 +1,25 @@
+/*
+** EPITECH PROJECT, 2018
+** my_revstr
+** File description:
+** Write a function that reverses a string.
+*/
+
+char *my_revstr(char *str)
+{
+    int i = 0;
+    int a = 0;
+
+    for (i = 0; str[i] != '\0'; i++);
+    char str_rev[i];
+
+    for (i = i - 1; i >= 0 ;i--) {
+        str_rev[a] = str[i];
+        a++;
+    }
+    str[a] = '\0';
+    i = 0;
+    for (i = 0; str[i] != '\0'; i++)
+        str[i] = str_rev[i];
+    return(str);
+}

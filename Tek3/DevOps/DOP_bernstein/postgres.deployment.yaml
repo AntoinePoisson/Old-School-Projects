@@ -1,0 +1,41 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: postgres-deployment
+  namespace: default
+  labels:
+    app: postgres
+spec:
+  selector:
+    matchLabels:
+      app: postgres
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: postgres
+    spec:
+      containers:
+        - name: postgres
+          image: postgres:12
+          volumeMounts:
+            - mountPath: /var/lib/postgresql/data
+              name: postgredb_
+          labels:
+            - "traefik.enable=false"
+          ports:
+            - containerPort: 5432
+          envFrom:
+            - configMapRef:
+                name: postgres-configmap
+            - secretRef:
+                name: postgres-secret
+      restartPolicy: Always
+      volumes:
+        - name: postgredb
+          persistentVolumeClaim:
+            claimName: postgres-pvvolume-claim
+
+          # envFrom: # Pour récup tout l'env
+          #   - configMapRef: #element suivis de "Ref"
+          #       name: postgres-configmap # le nom dans le metadata du fichier

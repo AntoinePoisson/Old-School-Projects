@@ -1,0 +1,25 @@
+#!/usr/bin/python3
+# -*- coding: utf-8 -*-
+
+import os, sys, math
+
+try:
+    from src.main import *
+    from src.classe import *    
+except:
+    sys.stderr("Can't import module\n");
+    sys.exit(84)
+
+trade = Trade()
+for line in sys.stdin:
+    lineParse = trade.parseLine(line)
+    switcher = {
+        "settings": settings,
+        "update": update,
+        "action": action
+    }
+    if line == "end":
+        sys.exit(0)
+    func = switcher.get(lineParse[0], useless)
+    trade.displayStdout(func(trade, lineParse))
+sys.exit(0)

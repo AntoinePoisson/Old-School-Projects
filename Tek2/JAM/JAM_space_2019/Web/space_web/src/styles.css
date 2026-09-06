@@ -1,0 +1,162 @@
+body {
+  line-height: 1.4em;
+  background: #121212;
+  /* background: yellow; */
+  width: 99%;
+  height: 100%;
+  color: #4d4d4d;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 300;
+}
+
+.init {
+  background: #121212;
+}
+#home-container {
+  display: grid;
+  grid-template-columns: .5fr 1fr 1fr .5fr; /* for left and right sections */
+  grid-gap: 10px;
+  grid-template-areas: ". left right .";
+  height: 100%;
+}
+
+#inner {
+  grid-area: left;
+  align-self: center;
+  justify-self: center;
+}
+
+#illustration {
+  grid-area: right;
+  align-self: center;
+  justify-self: center;
+  width: 80%;
+  padding: 20%;
+}
+
+img#logo {
+  width: 130px;
+  margin-bottom: 1.6em;
+}
+
+.front-icons {
+  position: absolute;
+  width: 12%;
+  color: azure;
+}
+
+#dash {
+  /*Welcome*/
+  margin-top: 19.5%;
+  margin-left: 20%;
+  animation: chatblips .5s ease-in-out 0.8s forwards; /* assign animation to dash with 'chatblips' as keyframe name */
+  opacity: 0;
+  z-index: 2;
+}
+
+#eth {
+  /*Space!*/
+
+  margin-top: 19.5%;
+  margin-left: 60%;
+  animation: chatblips .5s ease-in-out 2.4s forwards; /* assign animation to eth with 'chatblips' as keyframe name */
+  opacity: 0;
+  z-index: 2;
+}
+
+#iota {
+  /*to*/
+
+  margin-top: 19.5%;
+  margin-left: 48%;
+  animation: chatblips .5s ease-in-out 1.6s forwards; /* assign animation to iota with 'chatblips' as keyframe name */
+  opacity: 0;
+  z-index: 2;
+}
+
+#monitor {
+  animation: monitorIn 2s ease-in-out forwards; /* assign animation to monitor with 'monitorIn' as keyframe name */
+  opacity: 0;
+}
+
+.nodisplayMain {
+  display: none;
+}
+
+#nodisplayMain {
+  animation: fadeaway 2s ease-in forwards;
+}
+
+@keyframes monitorIn {
+  from {
+    transform: translateY(-30px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes chatblips {
+  /* taken from http://angrytools.com/css/animation/ for bounce-in animation*/
+  0% {
+    opacity: 0;
+    transform: scale(.3);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.0);
+  }
+  70% {
+    transform: scale(0.9);
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeaway {
+  /* taken from http://angrytools.com/css/animation/ for bounce-in animation*/
+  from {
+    transform: translateY(0);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(20px);
+    opacity: 1;
+  }
+
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.myButton {
+  box-shadow: 0px 12px 18px -7px #808485;
+  background: linear-gradient(to bottom, #c7c7c7 5%, #475357 100%);
+  background-color: #475357;
+  border-radius: 42px;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Impact;
+  font-size: 22px;
+  font-weight: bold;
+  padding: 0px 70px;
+  text-decoration: none;
+  text-shadow: 0px 1px 7px #000000;
+}
+.myButton:hover {
+  background: linear-gradient(to bottom, #475357 5%, #c7c7c7 100%);
+  background-color: #f513e6;
+}
+.myButton:active {
+  position: relative;
+  top: 1px;
+}

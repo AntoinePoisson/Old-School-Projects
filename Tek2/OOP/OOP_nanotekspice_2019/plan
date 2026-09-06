@@ -1,0 +1,48 @@
+class Parsing {
+}
+
+methode :
+-> parametre = av
+        -> recup file
+        -> parse arg : stock les arg dans une liste
+-> stock le fichier mais delete les commentaires avant en plus de check que le section .chipset et .links existe
+
+methode :
+-> parse: 
+    1 er patie (.chipset):
+        pas de .chiset //
+        pas "output" //
+        pas "intput" //
+        pas 2 fois le même nom //
+        pas de nom / plusieur nom //
+        composant qui n'existe pas //
+        ?? Si t'as un arg qui est init quelque chose qui n'est pas déclarer ?? //
+/////////  set la value a chaque création  ////////////  //
+
+
+    2 eme partie (.links):
+        pas de .links //
+        nbr de pin incorrect //
+        link avec un truc qui n'existe pas //
+        l'output n'est pas link (?? idem pour les autres composant ??) //
+        
+!!!!!!!! Si tu veux compute il faut que tout les input soit set !!!!!!!!!!!
+
+
+//// intruction sans nom ??? //
+/// whitespace in argument
+/// des instruction dans la section .link //
+
+
+// operator = //
+// output lin à un output //
+// fichier en .nts //
+
+// check le sort //
+// plusieur composant (includ output et input ???) ne peuvent pas avoir le même name //
+// dump //
+// clock // jerem
+
+Pense Bete:
+ - C'est grave si on return pas une addresse (ex: std::string name dans AComponent)
+ - Il y a des classes qui possedent des methodes quel ne devrait pas pouvoir utiliser (ex: output qui peut setValue)

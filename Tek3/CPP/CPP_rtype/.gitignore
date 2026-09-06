@@ -1,0 +1,56 @@
+# Libraries
+*.o
+*.a
+*.db
+
+# Emacs
+*~
+\#*#
+.#*
+
+# Executables
+r-type_server
+r-type_client
+pasPush/
+fclean
+build
+*.out
+unit_tests
+*.app
+*.i*86
+*.exe
+*.x86_64
+*.hex
+strace.*
+
+# Test Unitaire
+*.gc*
+*.h.gch
+mainee.c*
+
+# VALGRING
+vgcore.*
+
+# VSCODE
+*.vscode
+.vs
+
+# CMake
+cmake_install.cmake
+CMakeCache.txt
+CMakeFiles/
+build/
+
+# Conan
+conan.lock
+conanbuildinfo.cmake
+conanbuildinfo.txt
+conaninfo.txt
+graph_info.json
+
+# Other
+boostrap
+bootstrap
+sprites.rar
+tmp
+tmp2

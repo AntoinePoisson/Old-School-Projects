@@ -1,0 +1,76 @@
+body {
+    margin: 0px;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+
+#root {
+    color: #333;
+    background-size: cover;
+    background-image: linear-gradient(rgba(47, 47, 47, 0.2), rgba(0, 0, 0, 0.6)), url('./resources/bg_login_green.jpg');
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    display: flex;
+}
+
+#modal {
+    margin: auto;
+    width: 100vw;
+}
+
+#modal-inline {
+    padding: 6px;
+    display: block;
+    background-color: rgba(255, 255, 255, 0.836);
+    border-radius: 15px;
+    margin: auto;
+    width: 460px;
+}
+
+.info {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+}
+
+.item {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    margin: 0 auto 0 auto;
+    width: 370px;
+}
+
+.list {
+    font-family: 'Muli', sans-serif;
+    font-size: 18px;
+    margin-left: 32%;
+}
+
+button {
+    margin: 15px auto 10px auto;
+    width: 230px;
+    height: 35px;
+    font-size: 19px;
+    cursor: pointer;
+    border: 0;
+    border-radius: 4px;
+    font-weight: 700;
+    box-shadow: 0 0 20px rgba(4, 3, 9, 0.2);
+    transition: 0.4s;
+}
+
+button:hover:enabled {
+    color: white;
+    box-shadow: 0 0 20px rgba(43, 101, 28, 0.6);
+    background-color: rgb(71, 145, 53);
+}
+
+h2 {
+    padding-bottom: 15px;
+    text-align: center;
+    font-size: 31px;
+    font-family: 'Poppins-Bold';
+}

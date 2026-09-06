@@ -1,0 +1,9 @@
+    Organisation de la map:
+-La map doit être faite uniquement sur la première ligne du fichier.
+
+    Obstacle:
+-Les obstacles correspond à des chiffres allant de 1 à 9, chaques chiffres correspond à un obstacle différents, leurs tailles sont déterminé de manière aléatoire.
+-L'espace entre chaque chiffre est retranscrit dans le jeu mais avec des petits variations aléatoires en plus.
+
+    Exemple de map:
+ 1  24  5 1  6 2   1 55  9 4  1  6 2  1   5  6    8 11  5  8

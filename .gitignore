@@ -1,0 +1,28 @@
+# The portfolio site — neither half belongs on this branch.
+#
+# website-src/  the site's source, built locally by `node scripts/build-pages.mjs`.
+# website/      that build's output, published by `node scripts/deploy-pages.mjs` as a single
+#               orphan commit on gh-pages. Committing it here instead would add its full weight
+#               to main's history on every deploy, and none of it would ever be reclaimed.
+/website-src/
+/website/
+
+# Python bytecode from the side projects
+__pycache__/
+*.py[cod]
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*~
+
+# Regenerated at the repository root every time the site installs or builds: lefthook walks
+# up to the git root, so website-src/'s hooks keep landing here. The site has its own
+# lefthook.yml; this one is an empty template and belongs to no one.
+/lefthook.yml

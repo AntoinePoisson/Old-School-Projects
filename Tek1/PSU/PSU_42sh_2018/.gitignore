@@ -1,0 +1,39 @@
+# Libraries
+*.o
+norminette
+
+# Binary
+a.out
+mysh
+lib/my/libmy.a
+42sh
+
+# Tester
+tester/*
+tester
+tester/
+toto
+
+# Emacs
+*~
+\#*#
+
+# Executables
+*.out
+bin
+unit_tests
+*.exe
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Test Unitaire
+*.gc*
+*.h.gch
+
+# VALGRING
+vgcore.*
+
+# VSCODE
+*.vscode

@@ -1,0 +1,28 @@
+txt/
+
+# Libraries
+*.o
+*.a
+
+# Emacs
+*~
+\#*#
+
+# Executables
+*.out
+unit_tests
+*.exe
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Test Unitaire
+*.gc*
+*.h.gch
+
+# VALGRING
+vgcore.*
+
+# VSCODE
+*.vscode

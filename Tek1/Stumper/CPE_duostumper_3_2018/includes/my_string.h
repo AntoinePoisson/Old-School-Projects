@@ -1,0 +1,47 @@
+/*
+** EPITECH PROJECT, 2018
+** my_string.h
+** File description:
+** all headers of my lib
+*/
+
+#ifndef MY_STRING_H
+# define MY_STRING_H
+
+#ifndef EXIT_SUCCESS
+# define EXIT_SUCCESS 0
+#endif
+
+#ifndef EXIT_ERROR
+# define EXIT_ERROR 84
+#endif
+
+int count_arg(char *arg[]);
+char *get_next_line(int fd);
+int my_getnbr(char const *str);
+int my_isneg(int nb);
+char *my_malloc(int size);
+char **my_malloc_two_d(int size);
+char *my_revstr(char *str);
+void my_sort_int_array(int *tab, int size);
+char *my_strcapitalize(char *str);
+char *my_strcat(char *dest, char const *src);
+int my_strcmp(char const *s1, char const *s2);
+char *my_strcpy(char *dest, char const *src);
+char *my_strdup(char const *str);
+int my_str_isalpha(char const *str);
+int my_str_islower(char const *str);
+int my_str_isnum(char const *str);
+int my_str_isprintable(char const *str);
+int my_str_isupper(char const *str);
+int my_strlen(char const *str);
+char *my_strlowcase(char *str);
+char *my_strncat(char *dest, char const *src, int nb);
+int my_strncmp(char const *s1, char const *s2, int n);
+char *my_strncpy(char *dest, char const *src, int n);
+char *my_strstr(char *str, char const *to_find);
+char **my_str_to_word_array(char const *str);
+char *my_strupcase(char *str);
+void my_swap(int *a, int *b);
+
+#endif

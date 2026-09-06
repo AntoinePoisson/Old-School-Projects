@@ -1,0 +1,25 @@
+/*
+** EPITECH PROJECT, 2018
+** my_put_nbr
+** File description:
+** Write a function that displays the number given as a parameter. It must be able to display all the possible values of an int
+*/
+
+int my_put_nbr(int nb)
+{
+    int quotient = 0;
+    int reste = 0;
+ 
+    if (nb >= 0) {
+        quotient = nb % 10;
+        reste = nb / 10;
+        if (reste != 0)
+            my_put_nbr(reste);
+        my_putchar(quotient + '0');
+    }
+    if (nb < 0) {
+        my_putchar(45);
+        my_put_nbr(-nb);
+    }
+    return (0);
+}

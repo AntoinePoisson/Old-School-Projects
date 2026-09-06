@@ -1,0 +1,21 @@
+/*
+** EPITECH PROJECT, 2018
+** my_strncmp
+** File description:
+** D6, Reproduce the behavior of the strcmp function of n case.
+*/
+
+int my_strncmp(char const *s1, char const *s2, int n)
+{
+    int i = 0;
+    char a;
+
+    while (s1[i] == s2[i] && n > 0) {
+        if (s1[i] == '\0' && s2[i] == '\0')
+            return (0);
+        i++;
+        n--;
+    }
+    a = s1[i] - s2[i];
+    return (a);
+}

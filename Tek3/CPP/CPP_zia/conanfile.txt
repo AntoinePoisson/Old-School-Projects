@@ -1,0 +1,13 @@
+[requires]
+boost/1.71.0@conan/stable
+nlohmann_json/3.9.1
+bzip2/1.0.8
+zlib/1.2.11
+zstd/1.4.4
+openssl/1.1.1j
+
+[generators]
+cmake
+
+[options]
+zlib:shared=True

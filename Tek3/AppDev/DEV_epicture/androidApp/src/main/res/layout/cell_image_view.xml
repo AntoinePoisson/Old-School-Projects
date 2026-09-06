@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content" android:id="@+id/cell_image_layout">
+
+        <androidx.cardview.widget.CardView
+                android:id="@+id/card_view"
+                android:background="#474a51"
+                android:layout_marginBottom="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="211dp">
+
+                <com.airbnb.lottie.LottieAnimationView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        app:lottie_autoPlay="true"
+                        app:lottie_loop="true"
+                        app:lottie_rawRes="@raw/loading_animation"
+                        android:id="@+id/cell_image_lottie_anim"/>
+                <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="165dp"
+                                app:srcCompat="@android:drawable/ic_dialog_alert"
+                                android:id="@+id/cell_image"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"/>
+
+                        <TextView
+                                android:id="@+id/comment_description"
+                                android:layout_below="@id/cell_image"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginRight="5dp"
+                                android:layout_marginTop="2dp"
+                                android:text="Voici Une Très longue Titre"
+                                android:textSize="15sp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"/>
+
+                        <RelativeLayout
+                                android:id="@+id/wrapper_social"
+                                android:layout_below="@id/comment_description"
+                                android:layout_marginTop="2dp"
+                                android:layout_marginBottom="2dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="30dp">
+
+                                <ImageView
+                                        android:id="@+id/up_vote"
+                                        android:title="up_vote"
+                                        android:textStyle="bold"
+                                        android:layout_marginLeft="8dp"
+                                        android:layout_centerVertical="true"
+                                        android:layout_width="15dp"
+                                        android:layout_height="15dp"
+                                        android:src="@drawable/ic_view"/>
+                                <TextView
+                                        android:id="@+id/text_up_vode"
+                                        android:layout_centerVertical="true"
+                                        android:layout_marginLeft="2dp"
+                                        android:layout_toRightOf="@+id/up_vote"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="64"/>
+                        </RelativeLayout>
+                </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+</FrameLayout>

@@ -1,0 +1,29 @@
+SUJET NON TROUVE
+================
+
+Aucun sujet officiel n'a ete retrouve dans Project/ pour ce projet.
+Ce fichier a ete redige par retro-analyse du code source (il ne remplace
+pas le sujet d'origine et peut contenir des approximations).
+
+Projet     : Pong_Python
+Module     : aucun (projet personnel, dossier Projet_Bidouille de Tek3).
+             Pas de note associee : aucun grade.txt n'est ecrit.
+Langage    : Python 3
+Techno     : pygame
+
+BUT DU PROJET
+Recoder le jeu Pong, a deux joueurs.
+
+CE QUE FAIT LE CODE
+Meme architecture que le BrickBreaker du meme dossier :
+- run.py      : initialisation pygame, musique d'arcade en boucle, fenetre
+                450x450, menu d'accueil clicable.
+- game.py     : boucle de jeu, deplacement des deux raquettes, rebonds de la
+                balle, score.
+- entities.py : objets du jeu.
+- endGame.py  : ecrans de victoire, differencies par joueur -
+                "Victoire final R.png" (rouge) et "Victoire final B.png"
+                (bleu), ce qui confirme un mode 2 joueurs.
+
+POINTS INCERTAINS
+- Aucun : projet personnel sans sujet.

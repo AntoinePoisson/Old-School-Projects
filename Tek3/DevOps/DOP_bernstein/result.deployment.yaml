@@ -1,0 +1,39 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: result
+  namespace: default
+spec:
+  selector:
+    matchLabels:
+      run: result
+  replicas: 2
+  template:
+    metadata:
+      labels:
+        run: result
+    spec:
+      containers:
+        - name: result
+          image: "epitechcontent/t-dop-600-result:k8s"
+          resources:
+            limits:
+              memory: "128M"
+          ports:
+            - containerPort: 80
+          envFrom:
+            - configMapRef:
+                name: postgres-configmap
+            - secretRef:
+                name: postgres-secret
+      restartPolicy: Always
+      affinity:
+        podAntiAffinity:
+          requiredDuringSchedulingIgnoredDuringExecution:
+            - labelSelector:
+                matchExpressions:
+                  - key: app
+                    operator: In
+                    values:
+                    - postgres
+              topologyKey: "result.dop.io:30021"

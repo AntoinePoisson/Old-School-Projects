@@ -1,0 +1,31 @@
+Project description: IoT Project
+In this module, you will each have to deliver an IoT project, involving at least :
+- Connecting a device to a wifi network using the AP mode of the microcontroller
+- Sensing Data (From a sensor, a weather API, both..)
+- Use of a Micro-controller or a Single Board Computer (Or both)
+- An interface (Web page, mobile app)
+- Interfaces using physical buttons will be considered
+
+Example projects:
+
+Garage door monitoring (Battery imposed operation).
+https://www.hackster.io/mariod/monitor-your-garage-door-using-a-wemos-d1-mini-976071
+https://www.hackster.io/jason-cox/esp8266-garage-door-monitor-bd6f06
+
+Monitoring of license plates:
+OpenALPR on Raspberry Pi
+
+Leak detection project:
+https://www.bosch-smarthome.com/fr/fr/produits/appareils/detecteur-dinondation/?gclid=CjwKCAjwiJqWBhBdEiwAtESPaD420EDVyA2wE4nWpOI7FRfTOqO5iFZafHdNLeYJ9lLdrupIX0DRDRoCqNUQAvD_BwE
+need card, relay, battery shield
+
+
+Flooding detected by the microcontroller dispo running on battery, electric material cut off near the microcontroller or in another room (will need a second microcontroller or raspberry), user notification on his smartphone or computer, arrival on supervision dashboard with a click, online supervision dashboard accessible by URL, flooding prediction (which implies a dataset at least on a week)
+
+
+You will have to justify the choice of your hardware/software according to your project needs.
+
+We will evaluate :
+The ergonomy and the design of your product
+The usage of IoT skills (Vertical / Horizontal)
+Your technologic choice

@@ -1,0 +1,98 @@
+version: 2.1
+orbs:
+  discord: antonioned/discord@0.1.0
+jobs:
+  build:
+    docker:
+      - image: conanio/gcc6
+      - image: epitechcontent/epitest-docker
+    steps:
+      - checkout
+      - run:
+          name: Build Conan package
+          command: |
+                sudo /opt/pyenv/versions/3.7.5/bin/python3.7 -m pip install --upgrade pip
+                sudo pip3 install configparser
+                sudo pip3 install backports.lzma
+                sudo pip3 install conan
+                conan remote add bincraft https://api.bintray.com/conan/bincrafters/public-conan
+                conan remote add epitech_remote https://api.bintray.com/conan/epitech/public-conan
+                conan remote add conancenter https://api.bintray.com/conan/conan/conan-center
+                conan profile new default --detect
+                conan profile update settings.compiler.libcxx=libstdc++11 default
+                ./build.sh
+      - discord/status:
+          fail_only: true
+          mentions: 'here'
+          webhook: 'https://discordapp.com/api/webhooks/XXXXXXXXXXXXXXXXXX/XXXXXXXX_DISCORD_WEBHOOK_TOKEN_REDACTED_XXXXXXXX'
+
+workflows:
+  version: 2.1 
+  build_and_test:
+    jobs:
+      - build
+
+
+
+# version: 2.1
+
+# orbs:
+  # win: circleci/windows@2.4.0
+
+# jobs:
+  # linux-cmake:
+    #   machine:
+      #   image: circleci/classic:latest
+      # environment:
+        # CC: gcc-9
+        # CXX: g++-9
+      # steps:
+        # - checkout
+        # - run:
+            # name: Install Software
+            # command: |
+              # sudo apt-get update
+              # sudo apt-get install -y software-properties-common apt-transport-https curl
+              # curl -s https://apt.kitware.com/keys/kitware-archive-latest.asc | sudo apt-key add -
+              # sudo apt-add-repository -y 'deb https://apt.kitware.com/ubuntu/ xenial main'
+              # sudo apt-add-repository -y ppa:ubuntu-toolchain-r/test
+              # sudo apt-get update
+              # sudo apt-get install -y ninja-build git unzip cmake
+              # sudo pip install conan
+        # - run: /bin/bash ./build.sh
+
+# workflows:
+  # version: 2
+  # run-all:
+    # jobs:
+      # - linux-cmake
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# # Use the latest 2.1 version of CircleCI pipeline process engine. See: https://circleci.com/docs/2.0/configuration-reference
+# version: 2.1
+# # Use a package of configuration called an orb.
+# orbs:
+  # # Declare a dependency on the welcome-orb
+  # welcome: circleci/welcome-orb@0.4.1
+# # Orchestrate or schedule a set of jobs
+# workflows:
+  # # Name the workflow "welcome"
+  # welcome:
+    # # Run the welcome/run job in its own container
+    # jobs:
+      # - welcome/run

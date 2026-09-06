@@ -1,0 +1,58 @@
+{
+  "servers": [
+    {
+      "ip": "127.0.0.1",
+      "port": 4241,
+      "log": "./resources/log/Core.log",
+      "secure": false
+    },
+    {
+      "ip": "127.0.0.1",
+      "port": 4243,
+      "log": "./resources/log/Core.log",
+      "secure": true
+    }
+  ],
+  "logger": {
+    "path": "./build/modules/lib/libModuleLogger",
+    "conf": "./modules/logger/conf/config.json"
+  },
+  "connection_wrapper": {
+    "path": "./build/modules/lib/libModuleConnectionWrapper",
+    "conf": "./modules/connection_wrapper/conf/config.json"
+  },
+  "parser": {
+    "path": "./build/modules/lib/libModuleParser",
+    "conf": "./modules/parser/conf/config.json"
+  },
+  "handlers": [
+    {
+      "path": "./build/modules/lib/libModuleHtmlHandler",
+      "conf": "./modules/html_handler/conf/config.json"
+    },
+    {
+      "path": "./build/modules/lib/libModulePhpCgi",
+      "conf": "./modules/php_cgi/conf/config.json"
+    },
+    {
+      "path": "./build/modules/lib/libModulePngHandler",
+      "conf": "./modules/png_handler/conf/config.json"
+    },
+    {
+      "path": "./build/modules/lib/libModulePostRequestHandler",
+      "conf": "./modules/post_request_handler/conf/config.json"
+    },
+    {
+      "path": "./build/modules/lib/libModuleDeleteRequestHandler",
+      "conf": "./modules/delete_request_handler/conf/config.json"
+    },
+    {
+      "path": "./build/modules/lib/libModuleFileExplorer",
+      "conf": "./modules/file_explorer/conf/config.json"
+    },
+    {
+      "path": "./build/modules/lib/libModuleHeadRequestHandler",
+      "conf": "./modules/head_request_handler/conf/config.json"
+    }
+  ]
+}

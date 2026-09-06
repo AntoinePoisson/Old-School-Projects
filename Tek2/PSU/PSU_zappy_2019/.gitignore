@@ -1,0 +1,36 @@
+# IDE
+.idea
+.vscode/
+
+# Perso
+pasPush/
+boostrap
+bootstrap
+*.zip
+__pycache__
+tmp
+
+# Executation
+a.out
+zappy_server
+zappy_ai
+graphic
+unit_tests
+
+# Test Unitaire
+*.gc*
+
+# Valgrind
+*vgcore*
+
+# Object
+*.h.gch
+*.o
+
+# Lib
+*.a
+*.so
+
+# Emacs
+*~
+\#*#

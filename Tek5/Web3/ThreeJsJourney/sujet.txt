@@ -1,0 +1,43 @@
+SUJET NON TROUVE
+================
+
+Aucun sujet officiel n'a ete retrouve dans Project/ pour ce projet.
+Ce fichier a ete redige par retro-analyse du code source (il ne remplace
+pas le sujet d'origine et peut contenir des approximations).
+
+Projet     : Three.js Journey
+Module     : aucun. Aucun module de ce type n'apparait dans les bulletins de
+             Tek5 (semestres 9 et 10), il n'y a donc pas de note :
+             aucun grade.txt n'est ecrit.
+Langages   : JavaScript, GLSL
+Technos    : Three.js, WebGL, Vite, React, React Three Fiber (R3F), Drei,
+             Blender
+
+BUT DU PROJET
+Ce dossier n'est pas un projet Epitech mais le suivi complet d'une formation
+en ligne : "Three.js Journey" de Bruno Simon. Chaque sous-dossier est le
+code d'une lecon, numerote comme dans le cours, avec son propre
+package.json / vite.config.js.
+
+CONTENU (42 lecons conservees, de 03 a 54)
+- Bases WebGL/Three.js : 03-basic-scene, 04-local-server, 07-cameras,
+  12-materials, 13-3d-text, 15-lights, 16-shadows.
+- Projets d'application : 17-haunted-house, 18-particles,
+  19-galaxy-generator, 20-scroll-based-animation, 21-physics,
+  22-imported-models, 23-raycaster-and-mouse-events,
+  24-custom-models-with-blender, 25-realistic-render,
+  26-code-structuring-for-bigger-projects.
+- Shaders GLSL : 27-shaders, 28-shader-patterns, 29-raging-sea,
+  30-animated-galaxy, 31-modified-materials, 32-post-processing,
+  33-performance-tips.
+- Integration : 34-intro-and-loading-progress, 35-mixing-html-and-webgl,
+  36 / 38 / 39 (creation, import et optimisation d'une scene faite sous
+  Blender).
+- React Three Fiber : 42-first-react-application a 54-create-a-game-with-r3f
+  (drei, debug, environnement, chargement de modeles, texte 3D, portail,
+  evenements souris, post-processing, portfolio, physique, jeu).
+
+POINTS INCERTAINS
+- Certaines lecons manquent (05, 06, 08-11, 14, 37, 40, 41) : soit non
+  faites, soit non conservees.
+- node_modules est present dans certains dossiers, ce qui alourdit le depot.

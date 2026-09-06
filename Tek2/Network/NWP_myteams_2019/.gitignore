@@ -1,0 +1,32 @@
+# Libraries
+*.o
+*.a
+
+# Emacs
+*~
+\#*#
+
+# Executables
+myteams_server
+myteams_cli
+pasPush/
+.data_base/*
+libmy_mallocAA*
+build
+*.out
+unit_tests
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Test Unitaire
+*.gc*
+*.h.gch
+mainee.c*
+
+# VALGRING
+vgcore.*
+
+# VSCODE
+*.vscode

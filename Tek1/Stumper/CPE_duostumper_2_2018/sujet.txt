@@ -1,0 +1,49 @@
+SUJET NON TROUVE
+================
+
+Aucun sujet officiel n'a ete retrouve dans Project/ pour ce projet.
+Ce fichier a ete redige par retro-analyse du code source (il ne remplace
+pas le sujet d'origine et peut contenir des approximations).
+
+Projet     : duostumper 2 - Boggle
+Module     : B-CPE-210 - B2 Stumpers (module "Acquis", pas de note lettre :
+             aucun grade.txt n'est ecrit pour ce projet)
+Langage    : C (Makefile, lib maison, listes chainees)
+
+Le nom du jeu est explicite : les en-tetes des fichiers sources portent
+"** Boggle".
+
+BUT DU PROJET
+Implementer le jeu du Boggle : une grille carree de lettres est affichee, et
+le programme doit dire si un mot donne peut etre forme en enchainant des
+lettres adjacentes de la grille.
+
+USAGE (deduit de check_flags.c)
+    ./boggle [-s taille] [-g grille] [-w mot]
+  -s taille : cote de la grille (defaut 4, donc 16 lettres)
+  -g chaine : contenu de la grille, doit faire exactement taille*taille
+              caracteres, sinon "Invalid size" / "16 characters required
+              for the -g argument"
+  -w mot    : mot a chercher ; si absent, le programme passe en mode
+              interactif
+
+CE QUE FAIT LE CODE
+- is_initialization.c : initialise la structure variable_t (flags, args).
+- check_flags.c       : parsing des options -s, -g, -w.
+- create_two_d_tab.c / convert_tab.c : construction de la grille 2D a partir
+                        de la chaine fournie.
+- is_boggle.c         : l'algorithme de recherche du mot dans la grille
+                        (parcours des cases adjacentes).
+- tool_list.c         : utilitaires de liste chainee pour la recherche.
+- game_loop.c         : deux modes.
+                        * avec -w : teste le mot une fois puis quitte.
+                        * sans -w : affiche la grille, puis boucle avec un
+                          prompt "> ", lit un mot par getline() sur stdin,
+                          valide qu'il est en minuscules ("Invalid input"),
+                          et repond 'The word "xxx" is not in the grid.'
+                          tant que le mot n'est pas trouve.
+
+POINTS INCERTAINS
+- Le binaire attendu par le sujet (nom exact) n'est pas verifiable.
+- Le comportement attendu quand le mot EST trouve (affichage du chemin ?)
+  n'est que partiellement lisible : display_tab() est appele.

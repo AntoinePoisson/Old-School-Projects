@@ -1,0 +1,29 @@
+SUJET NON TROUVE
+================
+
+Aucun sujet officiel n'a ete retrouve dans Project/ pour ce projet.
+Ce fichier a ete redige par retro-analyse du code source (il ne remplace
+pas le sujet d'origine et peut contenir des approximations).
+
+Projet     : React-Admin-Side
+Type       : projet personnel (auto-formation menee pendant le stage de
+             Tek2). Ce n'est pas un projet Epitech : il n'y a ni sujet ni
+             note, et aucun grade.txt n'est ecrit.
+Langage    : JavaScript
+Techno     : React (create-react-app)
+
+BUT DU PROJET
+Troisieme exercice React du stage : realiser la partie "administration" d'un
+site web.
+
+CE QUE FAIT LE CODE
+Deux ecrans, visibles dans les captures image/look.png et image/look2.png :
+- src/Login/ : page de connexion administrateur.
+- src/Board/ : tableau de bord d'administration accessible apres connexion.
+Feuille de style dans public/style.css.
+
+Le README.md du dossier documente deja le projet.
+
+POINTS INCERTAINS
+- On ne sait pas si l'authentification etait branchee sur une vraie API ou
+  simulee cote client.

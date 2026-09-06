@@ -1,0 +1,36 @@
+SUJET NON TROUVE
+================
+
+Aucun sujet officiel n'a ete retrouve dans Project/ pour ce projet.
+Ce fichier a ete redige par retro-analyse du code source (il ne remplace
+pas le sujet d'origine et peut contenir des approximations).
+
+Projet     : JeuDeOie_Python
+Module     : aucun (projet personnel, dossier Projet_Bidouille de Tek3).
+             Pas de note associee : aucun grade.txt n'est ecrit.
+Langage    : Python 3
+Techno     : pygame
+
+BUT DU PROJET
+Recoder le jeu de l'oie : les joueurs lancent un de et avancent sur un
+plateau de cases, certaines cases declenchant des effets speciaux.
+
+CE QUE FAIT LE CODE
+- run.py      : point d'entree, menu, fenetre 450x450.
+- config.py   : parametres du jeu.
+- cells.py    : definition des cases du plateau et de leurs effets
+                (le vrai coeur du jeu de l'oie : avancer, reculer, passer son
+                tour, rejouer...).
+- entities.py : les pions / joueurs.
+- game.py     : boucle de jeu, lancer de de et deplacement.
+- rules.py    : ecran d'affichage des regles
+                (images/background_menu_rules.jpg), quitte sur Echap, F2 ou
+                un clic n'importe ou dans la fenetre.
+- endGame.py  : ecran de fin.
+- images/     : une quarantaine d'images "image texte N.jpg", une par case du
+                plateau, affichees quand on tombe dessus.
+
+POINTS INCERTAINS
+- Aucun : projet personnel sans sujet.
+- Le nombre exact de joueurs supportes n'est pas evident depuis les seuls
+  noms de fichiers.

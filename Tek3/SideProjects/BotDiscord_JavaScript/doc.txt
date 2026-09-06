@@ -1,0 +1,13 @@
+https://discord.com/developers/applications/728009666352906311/bot
+
+https://www.w3schools.com/nodejs/ref_http.asp
+
+https://nodejs.org/api/http.html#http_class_http_agent
+
+https://github.com/AnIdiotsGuide/discordjs-bot-guide/blob/master/first-bot/using-embeds-in-messages.md
+
+https://docs.github.com/en/free-pro-team@latest/developers/webhooks-and-events/webhook-events-and-payloads
+
+https://discord.js.org/#/docs/main/stable/examples/embed
+
+https://leovoel.github.io/embed-visualizer/

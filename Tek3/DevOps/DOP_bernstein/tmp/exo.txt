@@ -1,0 +1,93 @@
+
+Step 0:
+
+------------------------------------------------------------------
+
+Step 1:
+
+ - Commande:
+
+docker pull samber/hello-world-nodejs
+docker run --rm -it -e PORT=8080 -p 8080:8080 samber/hello-world-nodejs
+curl localhost:8080/
+
+kubectl apply -f hello-world.pod.yaml
+kubectl get pods
+kubectl get pods --all-namespaces
+kubectl logs hello-world
+kubectl logs hello-world -f
+kubectl logs hello-world -p
+kubectl get pod hello-world
+kubectl exec --stdin --tty hello-world -- /bin/bash
+kubectl exec --stdin --tty hello-world -- date
+kubectl delete pods hello-world
+
+ - YML:
+
+apiVersion: v1
+kind: Pod
+metadata:
+  name: hello-world
+  namespace: default
+spec:
+  restartPolicy: Never
+  containers:
+  - name: hello
+    image: "samber/hello-world-nodejs"
+
+------------------------------------------------------------------
+
+Step 2:
+
+ - YML:
+
+apiVersion: v1
+kind: Pod
+metadata:
+  name: hello-world
+  namespace: default
+spec:
+  restartPolicy: Never
+  containers:
+  - name: hello
+    image: "samber/hello-world-nodejs"
+    env:
+      - name: PORT
+        value: "8080"
+
+------------------------------------------------------------------
+
+Step 3:
+
+ - Commande:
+
+kubectl apply -f ./hello-world.pod.yaml
+kubectl expose deployment/hello-world
+kubectl get svc hello-world
+kubectl describe svc hello-world
+
+ - YML:
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: hello-world
+spec:
+  selector:
+    matchLabels:
+      run: hello-world
+  replicas: 2
+  template:
+    metadata:
+      labels:
+        run: hello-world
+    spec:
+      containers:
+      - name: hello
+        image: "samber/hello-world-nodejs"
+        ports:
+        - containerPort: 8080
+
+------------------------------------------------------------------
+
+Step 4:

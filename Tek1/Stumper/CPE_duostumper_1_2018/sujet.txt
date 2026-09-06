@@ -1,0 +1,44 @@
+SUJET NON TROUVE
+================
+
+Aucun sujet officiel n'a ete retrouve dans Project/ pour ce projet.
+Ce fichier a ete redige par retro-analyse du code source (il ne remplace
+pas le sujet d'origine et peut contenir des approximations).
+
+Projet     : duostumper 1 - fractale ASCII
+Module     : B-CPE-210 - B2 Stumpers (module valide "Acquis", pas de note
+             lettre : aucun grade.txt n'est ecrit pour ce projet)
+Langage    : C (Makefile, lib maison, includes/my_math.h)
+
+Un "stumper" est une epreuve chronometree d'une journee, en binome ici, ou
+le sujet est decouvert sur place. Le sujet n'a donc pas ete conserve.
+
+BUT DU PROJET
+Generer et afficher une fractale ASCII construite par repetition d'un motif
+de base, sur un nombre d'iterations donne.
+
+USAGE (deduit de main.c et is_fractal_management.c)
+    ./duostumper <iterations> <motif>
+  - av[1] = nombre d'iterations. Si 0, le programme affiche simplement "#".
+  - av[2] = motif de base, ou les lignes sont separees par '/' et la fin du
+    motif est marquee par '@' (my_str_to_selec_array(av[2], '@') puis
+    rework_parcing() remplace chaque '/' par un '\0').
+  - Le motif contient un caractere '.' qui sert de point d'origine
+    (check_if_point_in_line / find_point_origin le localisent).
+
+CE QUE FAIT LE CODE
+- new_tab()   : alloue la grille de l'iteration suivante, de cote
+                (taille_du_motif ^ iteration) - my_compute_power_rec().
+- fill_map()  : remplit la nouvelle grille en recopiant le motif de
+                l'iteration precedente dans chaque case, ce qui est la
+                construction classique d'une fractale auto-similaire
+                (type tapis de Sierpinski / L-system sur grille).
+- find_str() / fill_point() : repositionnent le point d'origine '.' a
+                l'echelle de la nouvelle grille.
+- display()   : affiche la grille ligne par ligne.
+
+POINTS INCERTAINS
+- Le nom officiel du stumper est inconnu.
+- Le principe general (fractale construite par repetition d'un motif passe en
+  argument, le '.' servant de point d'ancrage de la recursion) a ete confirme
+  par Antoine.

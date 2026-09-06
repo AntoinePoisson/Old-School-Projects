@@ -1,0 +1,42 @@
+img.bg {
+  min-height: 100%;
+  min-width: 1024px;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  img.bg {
+    left: 50%;
+    margin-left: -512px;
+  }
+}
+
+#root {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 21em;
+  justify-content: flex-start;
+}
+
+.block {
+  min-width: 300px;
+  overflow: hidden;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2),0px 1px 1px 0px rgba(0, 0, 0, 0.14),0px 2px 1px -1px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  background-color: #fff;
+  display: block;
+}
+
+#input {
+  padding: 1em 2em 1em 2em;
+}
+
+.buttonSignIn {
+  padding: 20px 5px 0 5px;
+}

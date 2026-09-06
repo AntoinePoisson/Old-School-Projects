@@ -1,0 +1,50 @@
+SUJET NON TROUVE
+================
+
+Aucun sujet officiel n'a ete retrouve dans Project/ pour ce projet.
+Ce fichier a ete redige par retro-analyse du code source (il ne remplace
+pas le sujet d'origine et peut contenir des approximations).
+
+Projet     : popeye
+Module     : B-DOP-500 - B5 DevOps
+Note       : A (voir grade.txt)
+Langages   : Python, Java, JavaScript, SQL, YAML
+Technos    : Docker, docker-compose, Flask, Redis, PostgreSQL, Node.js +
+             Socket.IO, Maven
+
+BUT DU PROJET
+Conteneuriser une application multi-services et l'orchestrer avec
+docker-compose : ecrire un Dockerfile par service, definir les reseaux, les
+volumes et les dependances entre conteneurs. Le nom "popeye" est le nom de
+code Epitech du projet Docker du module DevOps.
+
+L'application support est une application de vote distribuee (structure
+identique a l'exemple de reference "example-voting-app" de Docker), ici avec
+un theme DevOps : les options de vote par defaut sont Ansible, Chef, Puppet
+et SaltStack.
+
+ARCHITECTURE (docker-compose.yml, 5 services et 3 reseaux)
+  poll   : front de vote, Flask/Python, expose sur 5000 -> 80.
+           Depose chaque vote dans Redis, identifie le votant par un cookie
+           voter_id. Reseau : poll-tier.
+  redis  : file d'attente des votes (image officielle redis).
+           Reseaux : poll-tier + back-tier.
+  worker : consommateur Java (Jedis + JDBC, build Maven). Boucle infinie sur
+           un BLPOP de la cle "votes" dans Redis, parse le JSON et ecrit le
+           vote dans PostgreSQL. Reseau : back-tier.
+  db     : PostgreSQL, initialise par schema.sql monte dans
+           /docker-entrypoint-initdb.d/, avec un volume nomme db-data pour la
+           persistance. Reseaux : result-tier + back-tier.
+  result : affichage temps reel des resultats, Node.js + Socket.IO,
+           expose sur 5001 -> 80. Lit PostgreSQL. Reseau : result-tier.
+
+La segmentation en trois reseaux (poll-tier / back-tier / result-tier) est le
+coeur de l'exercice : le front de vote et le front de resultats ne peuvent
+pas se parler directement.
+
+POINTS INCERTAINS
+- On ne sait pas si le code applicatif etait fourni par le sujet (probable,
+  vu la ressemblance avec l'exemple Docker officiel) et si seul le travail de
+  conteneurisation etait a rendre.
+- Les identifiants PostgreSQL sont en clair dans le docker-compose
+  (postgres / password) - acceptable pour un exercice, a ne pas reproduire.

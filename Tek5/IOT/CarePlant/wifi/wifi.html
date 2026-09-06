@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>Super Thermo humidité</title>
+    <meta charset="utf-8" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="./wifi.css" />
+    <script type='text/javascript' src='./wifi.js'></script>
+</head>
+
+<body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root">
+        <div id="modal">
+            <div id="modal-inline">
+                <h2>Choisir une WIFI</h2>
+                <ol class="list">
+                    <!-- %WIFILIST% -->
+                    <li>Toto</li>
+                    <li>Lala</li>
+                    <li>Lili</li>
+                </ol>
+                <form class="info" onsubmit="validateForm(event)">
+                    <div class="item">
+                        <label>Renseignez le numéro de la WIFI:</label>
+                        <input id="wifi" type="number">
+                    </div>
+                    <div class="item">
+                        <label>Renseignez le mot de passe:</label>
+                        <input id="mtp" type="password">
+                    </div>
+                    <button type="submit" id="submit">
+                        Valider
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>

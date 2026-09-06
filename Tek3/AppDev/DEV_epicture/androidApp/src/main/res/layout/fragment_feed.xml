@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:paddingLeft="1dp"
+               android:paddingRight="1dp">
+    <com.airbnb.lottie.LottieAnimationView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/feed_loading_lottie_view"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_speed="2"
+            app:lottie_url="https://assets9.lottiefiles.com/packages/lf20_Gh0AU0.json">
+    </com.airbnb.lottie.LottieAnimationView>
+    <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/list_feed"
+            android:layout_width="match_parent"
+            android:layout_height="653dp"
+            android:cacheColorHint="@android:color/transparent"
+            android:divider="@android:color/transparent"
+            android:dividerHeight="10dp"
+            android:fadingEdge="none"
+            android:padding="10dp"
+            android:listSelector="@android:color/transparent"/>
+
+</FrameLayout>

@@ -1,0 +1,34 @@
+
+To DO:
+
+    Check si entity add ne pose pas de problem
+    Handle Quit Client in Game
+    Check les seg et bug
+    EndGame if nbr Mob == MONSTER MAX NBR
+    Quit player quand il est mort
+
+Player:
+    - Heal
+    - Position
+    - Position
+    - Surface
+//
+    - Sprite
+
+
+
+===
+
+Momo:
+Si tu seg
+Call le mediator
+create entity mobs et shoot
+avoir un itsmobs et itsshoot
+pouvoir savoir a partir d'une entity si c'est mob, shoot, player
+
+autres:
+mettre height_Player et width_player dans server.hpp
+c'est combien le HEIGHT WIDTH de la MAP
+Estce que le bitmask est correct ?
+si le player meurt au court de la partir
+prédiction sur le déplacement des mob

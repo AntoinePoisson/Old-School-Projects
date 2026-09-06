@@ -1,0 +1,49 @@
+SUJET NON TROUVE
+================
+
+Aucun sujet officiel n'a ete retrouve dans Project/ pour ce projet.
+Ce fichier a ete redige par retro-analyse du code source (il ne remplace
+pas le sujet d'origine et peut contenir des approximations).
+
+Projet     : my_rpg
+Module     : B-MUL-200 - B2 C Graphical Programming
+Note       : A (voir grade.txt)
+Langage    : C
+Techno     : CSFML (-lcsfml-graphics/-system/-window/-audio), Makefile,
+             lib maison lib/my, tests unitaires Criterion (--coverage
+             -lcriterion, tests/test.c)
+
+BUT DU PROJET
+Developper un jeu de role 2D complet ("create a custom rpg" d'apres l'en-tete
+de src/main.c) : monde explorable, combats, progression du personnage,
+inventaire, sorts, menus et sauvegarde de score.
+
+USAGE
+    ./my_rpg [-h] [niveau]
+  -h affiche l'aide ; sans argument le jeu ouvre une fenetre par defaut,
+  avec un argument numerique il demarre a un niveau / mode donne
+  (create_window(game, false, my_atoi(av[1]))).
+
+CE QUE FAIT LE CODE (organisation par dossier dans src/)
+- main_menu/   : menu principal, ecran de choix du personnage (plusieurs
+                 skins jouables), boutons cliquables.
+- settings/    : menu options - plein ecran, vsync, echelle de la fenetre,
+                 volume de la musique.
+- htp/         : ecran "How to play".
+- highscore/   : classement, lecture/ecriture d'un fichier de scores.
+- particule/   : systeme de particules (pluie, sorts, particules de boss).
+- Le struct variable_t (includes/my_struct.h) decrit tres precisement le
+  gameplay : hp et mana du joueur, xp, vitesse, or, potions, 4 slots de
+  competences, portee / vitesse / degats des sorts, inventaire, dialogues,
+  pause, et trois types d'ennemis parametrables (eye, spider, evil_tick)
+  avec vitesse, portee d'aggro, degats et xp gagnee.
+- Le struct map_s expose une map "beach", et les variables quit_beach /
+  quit_donjon indiquent au moins deux zones : une plage et un donjon.
+- Assets : polices (pixel.ttf, game.ttf), musiques (main_theme, boss_theme,
+  dungeon_theme), bruitages (sword_slash, sword_flesh, spell, sable, pluie),
+  sprites ranges par categorie (enemy, hud, inventory, map, menu, particule,
+  pause, player_skin).
+
+POINTS INCERTAINS
+- Le projet etait un projet de groupe ; le decoupage exact des consignes
+  (nombre de zones imposees, boss obligatoire, etc.) n'est pas reconstituable.

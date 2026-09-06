@@ -1,0 +1,37 @@
+# Libraries
+*.o
+*.a
+pasPush
+pasPush/
+
+# Emacs
+*~
+\#*#
+
+# Executables
+ftrace
+*.out
+ok.c
+toto
+test.so
+ooooooo
+toto.so
+bin_test
+true_bin
+unit_tests
+*.exe
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Test Unitaire
+*.gc*
+*.h.gch
+mainee.c*
+
+# VALGRING
+vgcore.*
+
+# VSCODE
+*.vscode

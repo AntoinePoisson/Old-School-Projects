@@ -1,0 +1,78 @@
+    + TODO:
+ //////// - Edit Refaire tous les Makefile (avec regle rm vgcore)
+ //////// - Add Faire une Class Erreur
+ ++++++++ - Add Check tous les lib & game : Bonne fonction & nombre minimun + les stocker
+ //////// - Add Fichier Score
+ //////// - Add Fonction Gerer les input
+ //////// - Add Fonction ClockGame
+ //////// - Commentaire en Generale
+ //////// - char * -> unique ptr
+////////  - Add Plus de lib
+ //////// - Retirer tout les underscore
+ - Faire la doc
+ //////// - Mettre toutes les games pour passez 100% à la moulinette
+
+    + Pense bete
+ - Obj Template ?
+ - Class Template ?
+ - printf !!
+ - NULL !!
+ make ; g++ core/Core.cpp core/main.cpp lib/sfml/Sfml.cpp  -lsfml-graphics -lsfml-window -lsfml-system -ldl ; ./a.out ./lib/lib_arcade_sfml.so
+
+
+•previous graphics library, = a = 80 ??????????
+•next graphics library, = e = 4
+•previous game, = o = 14
+•next game, = p = 15
+•restart the game, = r = 17
+•go back to the menu, = m = 12
+•exit. = ESCAPE = 36
+
+•z. = 25
+•s. = 18
+•q. = 16
+•d. = 3
+
+
+
+
+sudo dnf install xorg-x11-fonts-misc-7.5-19.fc28.noarch
+
+
+
+
+{ Jeremie
+   { Fenetre de fin de jeux
+      - Afficher le HighScore (highScoreName de Core.hpp) & le nom (highScoreValue de Core.hpp)
+      - Faire en sorte de pouvoir restart (avec game->restart())le game si le joueur press 'e' pendant le temps de pause
+   },
+   { Texture & Sprite
+      - PACMAN + Fantome + map + fruit
+      - Faire en BackGround en Ascii pour le Menu (Je t'expliquerai)
+   },
+   { Liste des choses & question a posé en Follow up
+      - Lire le code pour check les trucs qui vont pas / suceptible d'être amélioré
+   },
+   { ??? Doc ???
+      Commence la Doc :D
+   },
+   {
+      Pense bete: Faut s'incrire à la TAM
+      README: les mail epitech
+   },
+}
+
+
+{
+   gestion d'erreur si une library n'ayant pas les bonne methode
+   // les Cast type C
+   // En TAM, c'est quoi qui est testé, échange de Lib et Game ? les 2 ?
+   les pointeurs sont interdit ?
+   new & delete ?
+   // Score commein à tous les jeux ?? on gerer le score comme on veut ?
+   Class Template ??
+   // les # Define sont interdit ???
+   // En Tam, il regarde le code ??
+}
+
+

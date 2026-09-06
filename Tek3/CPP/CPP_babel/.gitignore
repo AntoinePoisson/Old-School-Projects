@@ -1,0 +1,51 @@
+# Libraries
+*.o
+*.a
+*.db
+
+# Emacs
+*~
+\#*#
+
+# Include
+includes/resolution.hpp
+
+# Executables
+babel_client
+babel_server
+pasPush/
+fclean
+build
+*.out
+unit_tests
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Test Unitaire
+*.gc*
+*.h.gch
+mainee.c*
+
+# VALGRING
+vgcore.*
+
+# VSCODE
+*.vscode
+
+# SETTINGS
+.settings
+
+# CMake
+cmake_install.cmake
+CMakeCache.txt
+CMakeFiles/
+build/
+
+# Conan
+conan.lock
+conanbuildinfo.cmake
+conanbuildinfo.txt
+conaninfo.txt
+graph_info.json

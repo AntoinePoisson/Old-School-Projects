@@ -1,0 +1,7 @@
+# Cles d'API NASA APOD retirees du depot (anonymisees).
+# Generer une cle personnelle sur https://api.nasa.gov et la fournir
+# via une variable d'environnement, jamais en dur dans le code.
+XXXXXXXX_NASA_APOD_API_KEY_REDACTED_XXXX
+XXXXXXXX_NASA_APOD_API_KEY_REDACTED_XXXX
+XXXXXXXX_NASA_APOD_API_KEY_REDACTED_XXXX
+XXXXXXXX_NASA_APOD_API_KEY_REDACTED_XXXX

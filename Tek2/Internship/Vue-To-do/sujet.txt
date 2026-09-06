@@ -1,0 +1,27 @@
+SUJET NON TROUVE
+================
+
+Aucun sujet officiel n'a ete retrouve dans Project/ pour ce projet.
+Ce fichier a ete redige par retro-analyse du code source (il ne remplace
+pas le sujet d'origine et peut contenir des approximations).
+
+Projet     : Vue-To-do
+Type       : projet personnel (auto-formation menee pendant le stage de
+             Tek2). Ce n'est pas un projet Epitech : il n'y a ni sujet ni
+             note, et aucun grade.txt n'est ecrit.
+Langage    : JavaScript
+Techno     : Vue.js (Vue CLI), Vuex (src/store/), plugins (src/plugins/)
+
+BUT DU PROJET
+Premier exercice en Vue.js realise pendant le stage : une liste de taches
+(to-do list).
+
+CE QUE FAIT LE CODE
+Application Vue CLI standard : src/main.js, src/App.vue, composants dans
+src/components/, gestion d'etat centralisee dans src/store/ (Vuex) pour
+ajouter, cocher et supprimer des taches.
+
+Le README.md du dossier documente deja le projet.
+
+POINTS INCERTAINS
+- Aucun : exercice personnel, pas de sujet officiel.

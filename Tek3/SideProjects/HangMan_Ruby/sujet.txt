@@ -1,0 +1,31 @@
+SUJET NON TROUVE
+================
+
+Aucun sujet officiel n'a ete retrouve dans Project/ pour ce projet.
+Ce fichier a ete redige par retro-analyse du code source (il ne remplace
+pas le sujet d'origine et peut contenir des approximations).
+
+Projet     : HangMan_Ruby
+Module     : aucun (projet personnel, dossier Projet_Bidouille de Tek3).
+             Pas de note associee : aucun grade.txt n'est ecrit.
+Langage    : Ruby
+Techno     : Gosu (bibliotheque de jeu 2D), Struct / OpenStruct
+
+BUT DU PROJET
+Portage en Ruby du meme jeu du pendu que HangMan_Java, pour comparer les deux
+langages.
+
+CE QUE FAIT LE CODE
+- run.rb      : tout le jeu tient dans ce fichier. Le mot a deviner est lu
+                depuis le fichier .config et mis en majuscules
+                (WORD = File.read(".config").split[0].upcase), puis masque
+                par des '_' dans DISPLAY_WORD.
+                Un Struct "Button" (position, taille, couleur, texte) sert a
+                construire le clavier virtuel A-Z : le module Input contient
+                la liste LISTBUTTON de tous les boutons lettres, positionnes
+                a la main en bas de la fenetre.
+- resources/  : memes images que la version Java - hangman_none.png a
+                hangman_seven.png, plus cursor.png.
+
+POINTS INCERTAINS
+- Aucun : projet personnel sans sujet.

@@ -1,0 +1,32 @@
+SUJET NON TROUVE
+================
+
+Aucun sujet officiel n'a ete retrouve dans Project/ pour ce projet.
+Ce fichier a ete redige par retro-analyse du code source (il ne remplace
+pas le sujet d'origine et peut contenir des approximations).
+
+Projet     : solostumper 2 - palindrome
+Module     : B-CPE-130 - B1 Solo Stumpers (module "Acquis", pas de note
+             lettre : aucun grade.txt n'est ecrit pour ce projet)
+Langage    : C (Makefile, lib maison, write() uniquement pour l'affichage)
+
+BUT DU PROJET
+Determiner si une chaine de caracteres passee en argument est un palindrome.
+
+USAGE
+    ./solostumper <chaine>
+
+COMPORTEMENT
+- Si l'argument manque : ecrit "Error: missing arguments.\n" sur la sortie
+  d'erreur (fd 2) et retourne 84.
+- Si la chaine est un palindrome : affiche "palindrome!" sur stdout.
+- Sinon : affiche "not a palindrome.".
+
+CE QUE FAIT LE CODE
+- check_error.c : verifie le nombre d'arguments.
+- palindrome.c  : compare la chaine a son miroir et renvoie 1 / 0.
+Le projet est volontairement minimal, typique d'un stumper court.
+
+POINTS INCERTAINS
+- Aucun point reellement ambigu ; on ignore seulement si le sujet demandait
+  d'ignorer espaces, casse ou ponctuation (le code ne le fait pas).

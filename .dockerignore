@@ -1,0 +1,5 @@
+# The image copies nothing: it is a thin wrapper around the Epitech test image, and the
+# repository is bind-mounted at run time instead. Excluding everything keeps `docker build`
+# from streaming a hundred source trees to the daemon as build context.
+*
+!Dockerfile

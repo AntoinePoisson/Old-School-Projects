@@ -1,0 +1,6 @@
+player1: incantation uuid (son niveau)
+players: (incantation uuid) ok
+players + player1: (incantation uuid) (tous les sons ont une direction commune == )(direction du son reçu)
+
+
+

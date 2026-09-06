@@ -1,0 +1,31 @@
+SUJET NON TROUVE
+================
+
+Aucun sujet officiel n'a ete retrouve dans Project/ pour ce projet.
+Ce fichier a ete redige par retro-analyse du code source (il ne remplace
+pas le sujet d'origine et peut contenir des approximations).
+
+Projet     : RockPaperScissors_Java
+Module     : aucun (projet personnel, dossier Projet_Bidouille de Tek3).
+             Pas de note associee : aucun grade.txt n'est ecrit.
+Langage    : Java
+Techno     : Swing / AWT (JFrame, JPanel, Graphics2D, MouseAdapter),
+             java.lang.Math pour l'aleatoire, run.sh / clear.sh
+
+BUT DU PROJET
+Recoder le jeu pierre-feuille-ciseaux contre l'ordinateur, avec interface
+graphique.
+
+CE QUE FAIT LE CODE
+- Main.java   : fenetre Swing. La classe myMouseListener gere les clics :
+                checkClick() teste si le clic tombe dans la zone d'une image,
+                checkWin(player, ia) applique les regles du jeu en comparant
+                le coup du joueur et celui de l'IA (tiree au hasard avec
+                Math.random()).
+- resources/  : rock.png, paper.png, scissor.png pour les trois coups,
+                win.png et lose.png pour le resultat, playAgain.png et
+                leave.png pour les boutons de fin de partie.
+- Example.java, run.sh, clear.sh : demo, compilation, nettoyage.
+
+POINTS INCERTAINS
+- Aucun : projet personnel sans sujet.

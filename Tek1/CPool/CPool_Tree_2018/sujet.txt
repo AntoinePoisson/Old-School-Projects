@@ -1,0 +1,38 @@
+SUJET NON TROUVE
+================
+
+Aucun sujet officiel n'a ete retrouve dans Project/ pour ce projet.
+Ce fichier a ete redige par retro-analyse du code source (il ne remplace
+pas le sujet d'origine et peut contenir des approximations).
+
+Projet     : tree (exercice de la piscine C)
+Module     : B-CPE-100 - Unix & C Lab Seminar (Part I), jour 4 de la
+             piscine (confirme par Antoine) - voir CPool_Day04_2018
+Note       : B (voir grade.txt)
+Langage    : C (pur, sans libc autorisee au-dela de write via my_putchar)
+Fichiers   : tree.c, other_fonction.c
+
+BUT DU PROJET
+Ecrire une fonction tree(int size) qui affiche en ASCII un sapin dont la
+taille est donnee en parametre. Le commentaire d'en-tete des deux fichiers
+le dit explicitement : "Write a function that displays a fir tree, based on
+its given size."
+
+CE QUE FAIT LE CODE
+- first_line()      : calcule la position horizontale du sommet du sapin et
+                      affiche la premiere ligne (la pointe).
+- print_star_line() : affiche une ligne de '*' de longueur donnee.
+- espace_line()     : gere l'indentation de chaque ligne pour centrer le motif.
+- change_line()     : passe a la branche suivante.
+- print_tree()      : boucle principale, empile les etages de branches ; la
+                      largeur croit de 2 en 2 et redemarre plus haut tous les
+                      4 niveaux pour dessiner les etages superposes du sapin.
+- tronc()           : dessine le tronc en '|' sous le feuillage, avec un cas
+                      particulier selon la parite de size.
+
+Aucun main() n'est present : c'est une fonction a rendre, testee par la
+moulinette. Pas de Makefile dans le dossier.
+
+POINTS INCERTAINS
+- Aucun. L'exercice appartient au jour 4 de la piscine ; le sujet de ce jour
+  se trouve dans Tek1/CPool/CPool_Day04_2018/G-CPE-100_Day04.pdf.

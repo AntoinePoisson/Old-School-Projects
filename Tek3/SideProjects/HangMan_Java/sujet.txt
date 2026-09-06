@@ -1,0 +1,34 @@
+SUJET NON TROUVE
+================
+
+Aucun sujet officiel n'a ete retrouve dans Project/ pour ce projet.
+Ce fichier a ete redige par retro-analyse du code source (il ne remplace
+pas le sujet d'origine et peut contenir des approximations).
+
+Projet     : HangMan_Java
+Module     : aucun (projet personnel, dossier Projet_Bidouille de Tek3).
+             Pas de note associee : aucun grade.txt n'est ecrit.
+Langage    : Java
+Techno     : Swing / AWT (JFrame, JPanel, Graphics2D, MouseAdapter),
+             compilation et lancement via run.sh / clear.sh
+
+BUT DU PROJET
+Recoder le jeu du pendu en Java, avec interface graphique.
+
+CE QUE FAIT LE CODE
+- Main.java   : fenetre Swing dessinee a la main. Une classe interne
+                Character represente un element cliquable (rectangle +
+                texte + couleurs) : c'est ainsi que sont construites les
+                lettres du clavier virtuel.
+- Le mot a deviner est lu dans le fichier .config (qui contient ici
+  "salutSalut").
+- resources/  : les images des etapes du pendu, de hangman_none.png a
+                hangman_seven.png, affichees au fur et a mesure des erreurs,
+                plus cursor.png.
+- Example.java / example.sh : petit programme de demonstration.
+- run.sh / clear.sh : compilation javac et nettoyage des .class.
+
+POINTS INCERTAINS
+- Aucun : projet personnel sans sujet.
+- Le fichier .config semble le seul moyen de changer le mot (pas de
+  dictionnaire aleatoire).

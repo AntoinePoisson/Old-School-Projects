@@ -1,0 +1,340 @@
+{
+    "customer": {
+        "host": "10.101.53.35"
+    },
+    "server": {
+        "current_time": 1531680780,
+        "services": [
+            {
+                "name": "Imgur",
+                "need_token": "Imgur",
+                "size": 12,
+                "widgets": [
+                    {
+                        "name": "Gallery",
+                        "description": "Display list images",
+                        "need_service": "",
+                        "params": [
+                            {
+                                "name": "section",
+                                "type": "string"
+                            },
+                            {
+                                "name": "sort",
+                                "type": "string"
+                            },
+                            {
+                                "name": "window",
+                                "type": "string"
+                            },
+                            {
+                                "name": "page",
+                                "type": "int"
+                            },
+                            {
+                                "name": "showViral",
+                                "type": "string"
+                            },
+                            {
+                                "name": "showMature",
+                                "type": "string"
+                            },
+                            {
+                                "name": "title",
+                                "type": "string"
+                            },
+                            {
+                                "name": "type",
+                                "type": "string"
+                            },
+                            {
+                                "name": "description",
+                                "type": "string"
+                            },
+                            {
+                                "name": "size",
+                                "type": "int"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Profile",
+                        "description": "Display your imgur profile",
+                        "need_service": "Imgur",
+                        "params": [
+                            {
+                                "name": "info",
+                                "type": "bool"
+                            },
+                            {
+                                "name": "name",
+                                "type": "string"
+                            },
+                            {
+                                "name": "title",
+                                "type": "string"
+                            },
+                            {
+                                "name": "type",
+                                "type": "string"
+                            },
+                            {
+                                "name": "description",
+                                "type": "string"
+                            },
+                            {
+                                "name": "size",
+                                "type": "int"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Post Image",
+                        "description": "Send your image",
+                        "need_service": "Imgur",
+                        "params": [
+                            {
+                                "name": "title",
+                                "type": "string"
+                            },
+                            {
+                                "name": "type",
+                                "type": "string"
+                            },
+                            {
+                                "name": "description",
+                                "type": "string"
+                            },
+                            {
+                                "name": "size",
+                                "type": "int"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Meteo",
+                "need_token": "",
+                "size": 4,
+                "widgets": [
+                    {
+                        "name": "Meteo",
+                        "description": "Give the meteo",
+                        "need_service": "",
+                        "params": [
+                            {
+                                "name": "city",
+                                "type": "string"
+                            },
+                            {
+                                "name": "title",
+                                "type": "string"
+                            },
+                            {
+                                "name": "type",
+                                "type": "string"
+                            },
+                            {
+                                "name": "description",
+                                "type": "string"
+                            },
+                            {
+                                "name": "size",
+                                "type": "int"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Github",
+                "need_token": "Github",
+                "size": 4,
+                "widgets": [
+                    {
+                        "name": "Issue",
+                        "description": "Give the a list of all the issue",
+                        "need_service": "Github",
+                        "params": [
+                            {
+                                "name": "repo",
+                                "type": "string"
+                            },
+                            {
+                                "name": "title",
+                                "type": "string"
+                            },
+                            {
+                                "name": "type",
+                                "type": "string"
+                            },
+                            {
+                                "name": "description",
+                                "type": "string"
+                            },
+                            {
+                                "name": "size",
+                                "type": "int"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Action",
+                        "description": "Display github action status",
+                        "need_service": "Github",
+                        "params": [
+                            {
+                                "name": "repo",
+                                "type": "string"
+                            },
+                            {
+                                "name": "title",
+                                "type": "string"
+                            },
+                            {
+                                "name": "type",
+                                "type": "string"
+                            },
+                            {
+                                "name": "description",
+                                "type": "string"
+                            },
+                            {
+                                "name": "size",
+                                "type": "int"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Apex",
+                "need_token": "",
+                "size": 4,
+                "widgets": [
+                    {
+                        "name": "Apex",
+                        "description": "Give the apex stat",
+                        "need_service": "",
+                        "params": [
+                            {
+                                "name": "user",
+                                "type": "string"
+                            },
+                            {
+                                "name": "title",
+                                "type": "string"
+                            },
+                            {
+                                "name": "type",
+                                "type": "string"
+                            },
+                            {
+                                "name": "description",
+                                "type": "string"
+                            },
+                            {
+                                "name": "size",
+                                "type": "int"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Twitch",
+                "need_token": "Twitch",
+                "size": 6,
+                "widgets": [
+                    {
+                        "name": "Search Streammer",
+                        "description": "Give list of Streammer",
+                        "need_service": "Twitch",
+                        "params": [
+                            {
+                                "name": "title",
+                                "type": "string"
+                            },
+                            {
+                                "name": "type",
+                                "type": "string"
+                            },
+                            {
+                                "name": "description",
+                                "type": "string"
+                            },
+                            {
+                                "name": "size",
+                                "type": "int"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+
+                "name": "Youtube",
+                "need_token": "Google",
+                "size": 6,
+                "widgets": [
+                    {
+                        "name": "Channel",
+                        "description": "Show Youtube channel stat",
+                        "need_service": "",
+                        "params": [
+                            {
+                                "name": "channel",
+                                "type": "string"
+                            },
+                            {
+                                "name": "title",
+                                "type": "string"
+                            },
+                            {
+                                "name": "type",
+                                "type": "string"
+                            },
+                            {
+                                "name": "description",
+                                "type": "string"
+                            },
+                            {
+                                "name": "size",
+                                "type": "int"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Subscriber",
+                        "description": "Show your latest sub",
+                        "need_service": "Google",
+                        "params": [
+                            {
+                                "name": "time",
+                                "type": "bool"
+                            },
+                            {
+                                "name": "title",
+                                "type": "string"
+                            },
+                            {
+                                "name": "type",
+                                "type": "string"
+                            },
+                            {
+                                "name": "description",
+                                "type": "string"
+                            },
+                            {
+                                "name": "size",
+                                "type": "int"
+                            }
+                        ]
+                    }
+                ]
+
+            }
+        ]
+    }
+}

@@ -1,0 +1,37 @@
+# .myshrc
+
+##alias
+alias ....='cd ../../../../'
+alias ...='cd ../../../'
+alias ..='cd ../../'
+alias .='cd ..'
+alias CD='cd'
+alias rm='rm --preserve-root -i -v'
+alias ne='emacs -nw --background-color=black'
+alias ls='ls --color=auto'
+alias l='ls -alp --color=auto'
+alias ll='ls -lp --color=auto'
+alias lll='ls -lp --color=auto'
+alias clr='clear'
+alias re='make re'
+alias run='make run'
+alias fclean='make fclean'
+alias debug='make debug'
+alias test_run='make test_run'
+alias emacs='emacs --background-color=black'
+alias em='emacs --background-color=black'
+alias ne='emacs --background-color=black'
+alias CPool='cd /home/Crow/CPool'
+alias CPE1='cd /home/Crow/CPE1'
+alias CPE2='cd /home/Crow/CPE2'
+alias PSU='cd /home/Crow/PSU'
+alias SS='cd /home/Crow/Solo_Stumper'
+alias Fr='cd /home/Crow/Fr'
+alias Maths='cd /home/Crow/Maths'
+alias CGP='cd /home/Crow/CGP'
+alias bashrc='emacs /home/Crow/.bashrc'
+alias git_clone="echo 'git clone git@git.epitech.eu:/antoine.poisson@epitech.eu/XX_2018'"
+alias git_group_1="echo 'blih -u antoine.poisson@epitech.eu repository create XX'"
+alias git_group_2="echo 'blih -u antoine.poisson@epitech.eu repository setacl XX prenom.nom@epitech.eu rw'"
+alias git_group_3="echo 'blih -u antoine.poisson@epitech.eu repository setacl XX ramassage-tek r'"
+alias git_group_4="echo 'blih -u antoine.poisson@epitech.eu repository getacl XX' git_clone"

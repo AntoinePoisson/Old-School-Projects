@@ -1,0 +1,49 @@
+SUJET NON TROUVE
+================
+
+Aucun sujet officiel n'a ete retrouve dans Project/ pour ce projet.
+Ce fichier a ete redige par retro-analyse du code source (il ne remplace
+pas le sujet d'origine et peut contenir des approximations).
+
+Projet     : Epitech JAM 2019 - theme "Space"
+Module     : G-JAM-001 - G0 Epitech JAM
+Note       : D (voir grade.txt)
+Langages   : JavaScript / TypeScript
+Technos    : React (web), Ionic + Angular + Capacitor/Cordova (mobile),
+             Node.js + Express + Sequelize + JWT (backend), jQuery,
+             Material-UI, API NASA APOD
+
+BUT DU PROJET
+La JAM est un hackathon court d'Epitech ou un theme est impose. Le theme
+etait ici l'espace, et le projet consiste a construire une application
+(web + mobile) autour des images astronomiques de la NASA.
+
+CE QUE FAIT LE CODE
+- getPicture.js : interroge l'API "APOD" (Astronomy Picture of the Day) de la
+  NASA - https://api.nasa.gov/planetary/apod - en remontant jour par jour
+  pour recuperer 20 images successives, en ignorant les jours ou le media
+  n'est pas une image. Un compteur permet de charger les 20 suivantes
+  (pagination facon scroll infini).
+- Web/space_web : application React (create-react-app) avec Material-UI et
+  animate.css, qui affiche cette galerie.
+- Mobile/space : application Ionic 4 / Angular, empaquetee via Capacitor et
+  Cordova pour Android, avec cordova-plugin-nativestorage pour la persistance
+  locale.
+- Mobile/backend : serveur Node/Express ecoutant en HTTP (3000) et HTTPS
+  (3001), avec authentification JWT, ORM Sequelize, CORS, taches planifiees
+  via cron, et gestion par PM2 (ecosystem.config.js).
+- Templates/ : plusieurs maquettes HTML statiques (template2, template3)
+  utilisees comme point de depart graphique.
+
+POINTS INCERTAINS
+- L'enonce precis de la JAM (contraintes, livrables, duree) est inconnu.
+- La repartition entre le "Web" React et le "Mobile" Ionic n'est pas
+  documentee : il n'est pas certain que les deux aient ete finis.
+
+SECRETS - ANONYMISES
+Le depot contenait des secrets en clair, remplaces par des placeholders :
+- cles d'API NASA APOD dans getPicture.js, Web/space_web/src/App.js et le
+  fichier DONT_DELETE_key_for_apod_API ;
+- cle privee TLS dans Mobile/backend/key.pem.
+Le code ne fonctionnera donc plus en l'etat : il faut regenerer une cle NASA
+sur https://api.nasa.gov et un certificat de developpement avec openssl.

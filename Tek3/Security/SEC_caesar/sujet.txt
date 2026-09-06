@@ -1,0 +1,58 @@
+SUJET NON TROUVE
+================
+
+Aucun sujet officiel n'a ete retrouve dans Project/ pour ce projet.
+Ce fichier a ete redige par retro-analyse du code source (il ne remplace
+pas le sujet d'origine et peut contenir des approximations).
+
+Projet     : SEC_caesar (challenges de cryptographie)
+Module     : B-SEC-500 - B5 Security - Cryptography
+Note       : A (voir grade.txt)
+Langage    : Python 3
+Technos    : base64, xor, AES-ECB/CBC, requests (attaques contre un serveur
+             Flask local sur http://127.0.0.1:5000)
+
+Remarque : un sujet B-SEC-500_Chiself.pdf (Chisel, challenges Boot2Root
+reseau) portait le meme code de module, mais correspondait a un projet qui
+n'a pas ete realise ; il a ete supprime du dossier Project/.
+
+BUT DU PROJET
+Serie de 14 challenges de cryptographie a resoudre en Python, sur le modele
+des "Cryptopals Crypto Challenges" : on part de manipulations d'encodage pour
+arriver a des attaques concretes sur du chiffrement par bloc.
+
+DETAIL DES EXERCICES (d'apres le code)
+  ex01 - conversion hexadecimal -> base64 (hex_to_base64.py) et
+         ASCII -> hexadecimal (ascii_to_hex.py), lecture depuis un fichier.
+  ex02 - XOR fixe entre deux buffers de meme longueur (leve une exception si
+         les tailles different).
+  ex03 - cassage d'un XOR mono-octet par analyse de frequence : une table de
+         frequences des lettres anglaises + de l'espace sert a scorer chaque
+         cle candidate. Un fichier de test challenge03.test.py accompagne
+         l'exercice.
+  ex04 - detection, dans un ensemble de lignes, de celle qui est chiffree par
+         XOR mono-octet.
+  ex05 - XOR a cle repetee (logical_xor avec key[i % len(key)]), entrees en
+         hexadecimal.
+  ex06 - cassage d'un XOR a cle repetee (fichier input06.txt).
+  ex07 - dechiffrement AES-ECB a cle connue (input07.txt).
+  ex08 - detection de chiffrement AES-ECB : recherche de blocs de 16 octets
+         identiques dans la meme ligne (check_occurence).
+  ex09 - padding PKCS#7.
+  ex10 - attaque "byte-at-a-time ECB decryption" contre un oracle distant :
+         le script poste sur http://127.0.0.1:5000/challenge10, gere le
+         cookie x-access-token renvoye, determine la taille de bloc
+         (get_size_block) et reutilise check_occurence de l'ex08 pour
+         confirmer le mode ECB. Un serv.py accompagne le challenge.
+  ex11 - meme approche contre un autre endpoint, avec gestion des cookies
+         (serv.py fourni).
+  ex12 - challenge avec serveur local (serv.py) - suite des attaques sur
+         oracle.
+  ex13 - NON RESOLU : le fichier se contente de sys.exit(84).
+  ex14 - NON RESOLU : idem.
+
+POINTS INCERTAINS
+- Le sujet original (liste et intitules exacts des 14 challenges) n'a pas ete
+  retrouve ; la description ci-dessus est deduite du code.
+- Les serveurs serv.py des ex10/11/12 semblent fournis par le sujet plutot
+  qu'ecrits pour l'occasion.

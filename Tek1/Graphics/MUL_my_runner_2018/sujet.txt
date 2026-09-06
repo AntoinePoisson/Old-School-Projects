@@ -1,0 +1,49 @@
+SUJET NON TROUVE
+================
+
+Aucun sujet officiel n'a ete retrouve dans Project/ pour ce projet.
+Ce fichier a ete redige par retro-analyse du code source (il ne remplace
+pas le sujet d'origine et peut contenir des approximations).
+
+Projet     : my_runner
+Module     : B-MUL-100 / B-MUL-200 - C Graphical Programming
+Note       : A (voir grade.txt)
+Langage    : C
+Techno     : CSFML (-lcsfml-graphics -lcsfml-system -lcsfml-window
+             -lcsfml-audio), Makefile
+
+BUT DU PROJET
+Realiser un jeu de type "infinite runner" facon Chrome Dino / Flappy : un
+personnage avance automatiquement, le joueur saute pour eviter des obstacles,
+le score augmente avec la distance et un meilleur score est sauvegarde.
+
+USAGE
+    ./my_runner [-h] [fichier_de_map]
+  -h affiche l'aide ; un fichier de map peut etre passe en argument
+  (verifie par open_file() dans main.c).
+
+FORMAT DE MAP (documente dans le fichier .legend du projet)
+- La map tient sur la premiere ligne du fichier uniquement.
+- Chaque chiffre de 1 a 9 represente un obstacle different, de taille
+  aleatoire ; les espaces entre les chiffres donnent l'espacement des
+  obstacles dans le jeu, avec de petites variations aleatoires.
+
+CE QUE FAIT LE CODE
+- is_create_window.c        : creation de la fenetre CSFML.
+- is_menu.c / is_create_menu.c / is_select_menu.c / display_menu.c :
+  menu principal avec navigation et transitions.
+- is_create_bg.c (+ _two)   : fonds defilants (parallaxe).
+- is_gestion_dino.c, control_move_dino.c, is_hitbox_dino.c :
+  animation du personnage (un dinosaure), sauts et collisions.
+- is_create_obstacle.c (+ extension), bird.c : generation des obstacles,
+  dont un oiseau volant.
+- control_score.c, my_itoa.c : calcul et affichage du score.
+- is_highscore.c, write_file.c, get_next_line.c, Highscore.txt :
+  lecture / ecriture persistante du meilleur score.
+- is_end_level_runner.c, is_transition_runner.c : fin de partie et
+  transitions d'ecran.
+- Musiques : music/music_bg_game.ogg, music/victory.ogg.
+
+POINTS INCERTAINS
+- Aucun. Le seul point non verifiable est le detail exact des consignes
+  (nombre d'obstacles imposes, bonus demandes).

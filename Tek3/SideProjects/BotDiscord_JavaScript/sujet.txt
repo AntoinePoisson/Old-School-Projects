@@ -1,0 +1,45 @@
+SUJET NON TROUVE
+================
+
+Aucun sujet officiel n'a ete retrouve dans Project/ pour ce projet.
+Ce fichier a ete redige par retro-analyse du code source (il ne remplace
+pas le sujet d'origine et peut contenir des approximations).
+
+Projet     : BotDiscord_JavaScript
+Module     : aucun (projet personnel, dossier Projet_Bidouille de Tek3).
+             Pas de note associee : aucun grade.txt n'est ecrit.
+Langage    : JavaScript (Node.js)
+Technos    : discord.js v12 (WebhookClient, MessageEmbed), module http natif,
+             webhooks GitHub, Docker (Dockerfile + scripts shell)
+
+BUT DU PROJET
+Bot Discord de notification d'activite Git : il expose un serveur HTTP qui
+recoit les webhooks GitHub et republie chaque evenement dans Discord sous
+forme de message enrichi (embed).
+
+CE QUE FAIT LE CODE (run.js)
+- Trois WebhookClient Discord sont configures, un par branche/canal : "web",
+  "mobile" et "back". sendEmbed(embed, branch) route le message vers le bon
+  canal selon la branche poussee.
+- messageCommit(obj) lit le payload GitHub (obj.sender, obj.head_commit,
+  obj.ref), extrait le nom de la branche depuis ref (refs/heads/<branche>) et
+  construit un MessageEmbed : titre "New Push on <branche>", couleur #5be6ff,
+  description contenant le hash court du commit en lien cliquable, le message
+  de commit et l'auteur.
+- Le fichier doc.txt regroupe les liens de documentation utilises
+  (portail developpeur Discord, API http de Node, guide discord.js sur les
+  embeds, doc des webhooks GitHub, embed-visualizer).
+- Dockerfile + launch.sh / connect.sh / clear.sh / cpy.sh : conteneurisation
+  et scripts de deploiement du bot.
+- Plusieurs avatars (porroAvatar*.png) pour le bot.
+
+POINTS INCERTAINS
+- Aucun sujet : projet personnel.
+- On ne sait pas si d'autres evenements GitHub (pull requests, issues)
+  etaient prevus ; seul le push est traite.
+
+SECRETS - ANONYMISES
+Les trois tokens de webhook Discord etaient ecrits en clair dans run.js ; ils
+ont ete remplaces par des placeholders. Pour refaire tourner le bot, il faut
+recreer trois webhooks dans Discord et fournir leurs identifiants par
+variables d'environnement plutot qu'en dur.

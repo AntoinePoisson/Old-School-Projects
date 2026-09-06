@@ -1,0 +1,29 @@
+# Libraries
+*.o
+*.a
+
+planning.txt
+
+# Emacs
+*~
+\#*#
+
+# Executables
+bin
+*.out
+unit_tests
+*.exe
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Test Unitaire
+*.gc*
+*.h.gch
+
+# VALGRING
+vgcore.*
+
+# VSCODE
+*.vscode

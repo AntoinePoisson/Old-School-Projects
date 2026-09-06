@@ -1,0 +1,42 @@
+SUJET NON TROUVE
+================
+
+Aucun sujet officiel n'a ete retrouve dans Project/ pour ce projet.
+Ce fichier a ete redige par retro-analyse du code source (il ne remplace
+pas le sujet d'origine et peut contenir des approximations).
+
+Projet     : my_printf
+Module     : B-PSU-101 - B1 Unix System Programming (Part II)
+Note       : B (voir grade.txt)
+Langage    : C (stdarg.h, write ; Makefile)
+
+BUT DU PROJET
+Reimplementer la fonction printf() de la libc : une fonction variadique qui
+parse une chaine de format et affiche les arguments correspondants.
+
+CE QUE FAIT LE CODE
+my_printf.c parcourt la chaine caractere par caractere et traite les
+conversions suivantes (via va_arg et une pile de fonctions
+is_extension_printf*) :
+  %d, %i  entier signe                 (my_put_nbr)
+  %u      entier non signe             (my_unsigned_putnbr)
+  %c      caractere
+  %s      chaine
+  %b      binaire                      (my_put_nbr_base "01")
+  %o      octal                        (base "01234567")
+  %x / %X hexadecimal minuscule/majuscule
+  %p      adresse                      (my_put_address)
+  %l...   entiers longs                (my_put_long)
+  %n, %%  cas particuliers
+La conversion generique passe par my_put_nbr_base(nombre, base) qui prend la
+base sous forme de chaine de symboles.
+
+BONUS
+Le dossier bonus/ contient la meme implementation enrichie de la couleur :
+my_putchar_color_char.c, my_putchar_color_int.c, my_putstr_color_char.c,
+my_putstr_color_int.c - affichage colorise (sequences ANSI) pilote depuis le
+format.
+
+POINTS INCERTAINS
+- La liste exacte des conversions imposees par le sujet n'est pas connue ;
+  celle ci-dessus est celle effectivement implementee.

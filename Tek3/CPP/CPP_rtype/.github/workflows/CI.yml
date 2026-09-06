@@ -1,0 +1,82 @@
+# This is a basic workflow to help you get started with Actions
+
+name: CI
+
+# Controls when the action will run. Triggers the workflow on push or pull request
+# events but only for the master branch
+on: push
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+    # The type of runner that the job will run on
+    name: Builder
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    runs-on: ubuntu-latest
+    container: epitechcontent/epitest-docker
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Install Dependance
+        run: |
+            sudo dnf update -y
+            sudo dnf install -y libfontenc-devel gcovr gtest-devel-1.10.0-1.fc32.x86_64 libXrandr-devel libXv-devel libXcursor-devel libXinerama-devel libXdmcp-devel libXtst-devel libXtst-devel xorg-x11-xkb-utils-devel xorg-x11-xkb-utils-devel libXres-devel libXScrnSaver-devel libXvMC-devel xorg-x11-xtrans-devel xkeyboard-config-devel libXcomposite-devel libXaw-devel libfontenc-devel libXcomposite-devel xcb-util-wm-devel xcb-util-keysyms-devel xcb-util-renderutil-devel libXdamage-devel
+            sudo python3 -m pip install --upgrade pip
+            sudo pip3 install configparser
+            sudo pip3 install backports.lzma
+            sudo pip3 install conan
+
+      - name: Conan Setup
+        run: |
+            conan remote add bincraft https://api.bintray.com/conan/bincrafters/public-conan
+            conan remote add epitech_remote https://api.bintray.com/conan/epitech/public-conan
+            conan remote add conancenter https://api.bintray.com/conan/conan/conan-center
+            conan profile new default --detect
+            conan profile update settings.compiler.libcxx=libstdc++11 default
+
+
+      # Runs a set of commands using the runners shell
+      - name: Build
+        run: |
+            chmod +x *.sh
+            rm -frv ./build/
+            rm -frv ./CMakeFiles/
+            rm -frv ./CMakeCache.txt
+            rm -frv ./cmake_install.cmake
+            rm -frv ./fclean
+            rm -frv ./r-type_server
+            rm -frv ./r-type_client
+            rm -frv ./vgcore.*
+            mkdir build
+            cd build
+            conan install .. --build=missing
+            cmake .. -G "Unix Makefiles"
+            cmake -build .
+            make -j 4
+            echo -e '\033[0;32mSuccess Compile\033[0m'
+
+      - name: Google Tests
+        run: |
+            chmod +x *.sh
+            rm -frv ./build/
+            rm -frv ./CMakeFiles/
+            rm -frv ./CMakeCache.txt
+            rm -frv ./cmake_install.cmake
+            rm -frv ./fclean
+            rm -frv ./r-type_server
+            rm -frv ./r-type_client
+            rm -frv ./vgcore.*
+            ./run_tests.sh
+
+  discord:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Send Status Job to Discord
+        uses: nebularg/actions-discord-webhook@v1
+        with:
+          webhook_url: "https://discord.com/api/webhooks/XXXXXXXXXXXXXXXXXX/XXXXXXXX_DISCORD_WEBHOOK_TOKEN_REDACTED_XXXXXXXX"
+          status: ${{ job.status }} # optional, this is the default
+        if: failure()

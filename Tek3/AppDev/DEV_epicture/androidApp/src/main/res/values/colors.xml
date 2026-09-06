@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#037C26</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <color name="black_overlay">#212124</color>
+    <color name="light_gray">#404043</color>
+    <color name="upvote">#4FAE3E</color>
+    <color name="downvote">#FFC60000</color>
+    <color name="vote_default">#FFCACACA</color>
+</resources>

@@ -1,0 +1,48 @@
+
+incantationHelp : {
+    status: 1 *coming*, 2 *waiting*, 3 *starting*
+    uuid: *incantation_uuid*
+    path: *path to incantation*
+
+}
+
+incantationData: {
+    uuid: *incantation_uuid*
+    come: True *come*
+    start: True *start*
+    nbArrived: *nb_mates_arrived*
+    uuidArrived: *uuid_mates_arrived*
+}
+
+-protocol communication:
+Ask: "$team name" "incantation" "$incantationUuid" "$lvl" "$x" "$y"
+Approve answer: "team_name" "incantation" "incantation uuid" "ok"
+Denied Answer: no response
+
+if not enough response => wait and send to people that have approve: $team_name "incantation" "incatation uuid" "cancelled"
+
+when enough people answered: "$team name" "incantation" "incantation uuid" "come"
+when people arrive: "$team name" "incantation" "incantation uuid" "player uuid" "arrived"
+when all people arrived: "$team name" "incantation" "incantation uuid" "start"
+
+protocol when incantation done: "$team name" "incantation" "incantation uuid" "done"
+
+@TODO
+incantationAsker: send come => ok
+incantationAsker: send cancelled => ok
+
+case if it cancelled when to relaunch the ask to help incantation
+
+incantationHelper: incantationPath
+incantationHelper: receive message start => send incantation to server and do nothing until ok
+
+
+incantationHelper: 
+protocol when the incantation can start: eg when all the player arrived
+
+
+-case where spawned child protocol:
+
+(In case of incantation the spawned child should wait for a direction response a time equivalent of an incantation so that he can get the reponse, otherwise it define himself the map and fork)
+broadcast => count the time interval response send and reply server
+from the then it will define the real time it takes to wait for an incantation

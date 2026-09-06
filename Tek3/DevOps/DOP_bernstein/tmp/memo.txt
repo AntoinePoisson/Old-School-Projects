@@ -1,0 +1,27 @@
+
+Installation :
+curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-latest.x86_64.rpm
+sudo rpm -ivh minikube-latest.x86_64.rpm
+
+curl -LO "https://storage.googleapis.com/kubernetes-release/release/$(curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt)/bin/linux/amd64/kubectl"
+chmod +x ./kubectl
+sudo mv ./kubectl /usr/local/bin/kubectl
+
+sudo rpm -ivh https://rpm.rancher.io/k3s/stable/common/centos/7/noarch/k3s-selinux-0.2-1.el7_8.noarch.rpm
+sudo dnf install selinux-policy-mls
+curl -sfL https://get.k3s.io/ | sh -
+
+sudo dnf /run/media/VBoxLinuxAdditions.run-guest-additions-6.1.4-4.fc32.x86_64
+
+#Alias (Pas faire):
+sudo dnf install -y bash-completion
+source /usr/share/bash-completion/bash_completion
+echo 'source <(kubectl completion bash)' >>~/.bashrc
+echo 'source <(kubectl completion bash)' >>~/.zshrc
+sudo cp ./kubectl /etc/bash_completion.d/kubectl
+echo 'complete -F __start_kubectl k' >>~/.bashrc
+
+
+yum install -y container-selinux selinux-policy-base
+yum install -y https://rpm.rancher.io/k3s/stable/common/centos/7/noarch/k3s-selinux-0.2-1.el7_8.noarch.rpm
+

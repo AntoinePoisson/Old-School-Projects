@@ -1,0 +1,12 @@
+<ion-content [fullscreen]="true">
+  <div style="background-image:url('./assets/background.jpg'); height: 100vh; width: 100vw; background-size: cover; padding: 5px; display: flex; flex-flow: column">
+    <span style="text-align: center; font-weight: bold; margin-top: 30px; margin-left: auto; margin-right: auto; padding: 0 5px">{{question}}</span>
+    <div style="display: flex; flex-wrap: wrap; margin-top: 25%">
+      <div *ngFor="let key of answersKeys">
+        <div (click)="answer(key)" [id]="key" class="btn" style="cursor: pointer; width: fit-content !important; height: 100px !important; display: flex; flex: 1; margin-left: 3px; margin-right: 3px; margin-top: 6px; margin-bottom: 6px">
+          <span style="text-align: center">{{answers[key]}}</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</ion-content>

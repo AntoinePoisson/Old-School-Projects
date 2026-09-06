@@ -1,0 +1,192 @@
+Network Working Group         
+Author                                              Antoine POISSON,
+                                                    Mouad BERREHAL,
+                                                    Aurele AUBOIN,
+                                                    Pierre-Mickael GONZALO                                    
+Date                                                        10/2020
+Category: Standards Track
+
+
+                    RTYPE Communication protocol
+
+Status of this Memo
+
+    This document specifies an Internet standards track protocol for
+    the Internet community, and requests discussion and suggestions
+    for improvements.  Please refer to the current edition of the
+    "Internet Official Protocol Standards" (STD 1) for the
+    standardization state and status of this protocol.  Distribution
+    of this memo is unlimited."
+
+Copyright Notice
+
+    Copyright (C) The Internet Society (1999).  All Rights Reserved.
+
+Abstract
+    
+    This document is intended to give enough information to implement our
+    currently use protocol in our RTYPE game. 
+
+Table of Contents 
+
+    1. Introduction.................................1
+    2. Use of protocols (TCP & UDP).................1
+    3. server->client...............................1
+        3.1 Message type server side................1
+        3.2 Struct message description..............1
+    4. Sequential Diagram...........................1
+    5. client->server...............................1
+        5.1 Message type client side................1
+        5.2 Struct message description..............1
+        5.3 Action code list........................1
+    6. Event for Network............................1
+
+1. Introduction 
+
+
+2. Use of protocols (TCP & UDP)
+
+When the client will be on his menu, it will communicate with the server using TCP protocol.
+Once the client decide to join a game, a new connection will open using UDP protocol.
+Notice: the tcp connection begin only on the client click on *Play*button.
+
+3. server->client
+
+    3.1. Message type server side
+
+        | Name              | value | Protocol |
+        | ----------------- | ----- | -------- |
+        | DisplayRefresh    | 1     |   UDP    |
+        | DeleteComponents  | 2     |   UDP    |
+        | Endpoint          | 3     |   TCP    |
+        | EndGame           | 4     |   UDP    |
+
+            DeleteComponents (2)// dans le cas ou tous les components sont specifiés, on delete l'entité
+
+
+    3.2. Struct message description
+
+        That structure will be used for the "DisplayRefresh" message type.
+        Here the message property will be used to concatenate the list of component specified by the mask_bitset field.
+
+            struct {
+                int type;
+                char uuiid[36];
+                unsigned long mask_bitset;
+                time_t timestamp;
+                char message[2000];
+            };
+
+        The next structure will be the message sent using the DeleteComponents message type. Within that mask_bitset we will specified the different component to remove.
+        If all the component are set, the entity will be removed from the client's display.
+
+            struct {
+                int type;
+                char uuiid[36];
+                //time_t timestamp;
+                unsigned long mask_bitset;
+            };
+
+
+        Here the structure contains the endpoint to the new opened UDP connection dedicated for the game.
+        "addr" is the human readable network address of that type: "AAA.AAA.AAA.AAA", and "port" contains the port number.
+
+            struct {
+                int type;
+                //char addr[15];
+                short port;
+            }
+
+        Finally this structure is used for the EndGame message type. With a boolean to precise if the player has lost.
+
+        struct {
+            int type;
+            bool has_win;
+        }
+
+4. Sequential Diagram
+
+
+                Client            Server             Clients
+                    |                   |                   |
+                    |                   |                   |
+    ________________|-----------------  |                   |
+                    | CodeAction------->|                   |
+                    |   (PLAY, nbplayer)|                   |
+                    |                   |<--------CodeAction|
+    TCP protocol    |                   |   (PLAY, nbplayer)|
+                    |<----Endpoint------|-----Endpoint----->|
+                    |                   |                   |
+                    |-----Endpoint----->|<---Endpoint-------|
+                    |                   |                   |
+                    |End of TCP connection                  ||
+                    [__________Begin_of_UDP_Connection______]
+                    |                   |                   |
+    UDP protocol    | CodeAction------->|                   |
+                    |   (Shoot)  [Treatment Request...]     |
+                    |<--DisplayRefresh--|--DisplayRefresh-->|
+                    |     (Bullet)      |     (Bullet)      |
+    ________________|___________________|___________________|
+
+<!-- Describe en game -->
+
+5. client->server
+
+
+    5.1. Message type client side
+    
+    | Name              | Value | Protocol |
+    | ----------------- | ----- | -------- |
+    | CodeAction        | 2     | UDP/TCP  |
+    | Endpoint          | 3     |   TCP    |
+
+    5.2. Struct message description
+
+        This structure will be used for CodeAction message type.
+        It will contain the code value within the "action" field.
+
+        struct {
+            int type; //CodeAction(2)
+            time_t timestamp;
+            int nb_player;
+            int action;
+        }
+
+        The structure's Endpoint message type is describe above
+
+    5.3. Action code list
+
+    | Name      | Code   | Protocol         |
+    | --------- | ------ | --------         |
+    | Right     | 1      |  UDP             |
+    | Left      | 2      |  UDP             |
+    | Up        | 4      |  UDP             |
+    | Down      | 8      |  UDP             |
+    | Shoot     | 16     |  UDP             |
+    | Play      | 64     |  TCP             |
+    | Quit      | 128    |NoProtocol and TCP|
+    <!-- | Menu      | 32     |  TCP     | -->
+    <!-- | Tutorial  | 256    |  TCP     | -->
+
+    Open tcp connection once play button is clicked
+    Once game started, client cut the tcp connection
+
+6. Event for Network
+
+| NameEntity | ListComponent                                                               |
+| ---------- | --------------------------------------------------------------------------- |
+| Player     | Position, Life, Type                                                        |
+| Monster    | Position, (Life), Type                                                      |
+| Bullet     | Position, Destination, StartingTime, Speed, Surface, StartCriteria, Type    |
+
+Sprite/Sprite:
+
+finalement c'est type d'entité qu'on va bind coté client
+specify rect, and array rect
+
+no spreet sheet explosion
+
+tableau de fin:
+WON/LOST
+
+index for bullet type
