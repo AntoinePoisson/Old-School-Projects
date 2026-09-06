@@ -1,0 +1,5 @@
+User-Agent: *
+Allow: /
+
+Host: https://antoinepoisson.github.io/Old-School-Projects
+Sitemap: https://antoinepoisson.github.io/Old-School-Projects/sitemap.xml

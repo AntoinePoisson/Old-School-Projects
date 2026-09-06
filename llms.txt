@@ -1,0 +1,24 @@
+# back_in_school
+
+> back_in_school is an archive of 108 school and personal software projects built between 2018 and 2023, presented as a CRT terminal.
+
+Each project has its own page, pre-rendered with the whole record as text in the HTML: pitch,
+year, grade, language breakdown, source tree and an excerpt of the code. Nothing worth reading
+sits behind a script, and no figure on the site is hand-written — every one is derived from the
+108 project manifests in the repository the site is built from
+(18 languages, ~256K lines).
+
+## Pages
+
+- [Home](https://antoinepoisson.github.io/Old-School-Projects/): Corpus metrics, the language treemap, the featured project streams and the year timeline.
+- [Project index](https://antoinepoisson.github.io/Old-School-Projects/projects/): All 108 records, filterable by year, language and category, with a console mode over the same data.
+- [About](https://antoinepoisson.github.io/Old-School-Projects/about/): The stack behind the archive, and what its estimated figures are estimates of.
+
+## Translations
+
+- [Français](https://antoinepoisson.github.io/Old-School-Projects/fr/): Every page above, in French.
+
+## Optional
+
+- [Sitemap](https://antoinepoisson.github.io/Old-School-Projects/sitemap.xml): Every page, in every locale, cross-linked with its translations.
+- [humans.txt](https://antoinepoisson.github.io/Old-School-Projects/humans.txt): Who built the site, and with what.

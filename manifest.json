@@ -1,0 +1,50 @@
+{
+  "id": "/Old-School-Projects/",
+  "name": "back_in_school — Technical Project Archive",
+  "short_name": "back_in_school",
+  "description": "A CRT-inspired archive of 108 school and personal software projects built between 2018 and 2023.",
+  "lang": "en",
+  "dir": "ltr",
+  "categories": [
+    "graphics",
+    "entertainment"
+  ],
+  "icons": [
+    {
+      "src": "/Old-School-Projects/icons/favicon-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/Old-School-Projects/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/Old-School-Projects/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/Old-School-Projects/icons/icon-192-maskable.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/Old-School-Projects/icons/icon-512-maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "start_url": "/Old-School-Projects/",
+  "scope": "/Old-School-Projects/",
+  "display": "standalone",
+  "orientation": "any",
+  "theme_color": "#050703",
+  "background_color": "#050703"
+}

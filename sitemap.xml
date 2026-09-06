@@ -1,0 +1,1779 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/" />
+<changefreq>monthly</changefreq>
+<priority>1</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/projects/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/" />
+<changefreq>monthly</changefreq>
+<priority>0.9</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/about/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/about/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/about/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/about/" />
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/projects/iot-careplant-2022/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/iot-careplant-2022/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/iot-careplant-2022/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/iot-careplant-2022/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/projects/perso-threejs-journey-2022/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/perso-threejs-journey-2022/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/perso-threejs-journey-2022/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/perso-threejs-journey-2022/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/projects/cpp-babel-2020/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpp-babel-2020/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpp-babel-2020/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpp-babel-2020/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/projects/dop-bernstein-2020/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/dop-bernstein-2020/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/dop-bernstein-2020/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/dop-bernstein-2020/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/projects/perso-brickbreaker-2020/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/perso-brickbreaker-2020/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/perso-brickbreaker-2020/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/perso-brickbreaker-2020/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/projects/sec-crypto-2020/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/sec-crypto-2020/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/sec-crypto-2020/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/sec-crypto-2020/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/projects/dev-dashboard-2020/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/dev-dashboard-2020/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/dev-dashboard-2020/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/dev-dashboard-2020/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/projects/perso-botdiscord-2020/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/perso-botdiscord-2020/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/perso-botdiscord-2020/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/perso-botdiscord-2020/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/projects/dev-epicture-2020/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/dev-epicture-2020/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/dev-epicture-2020/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/dev-epicture-2020/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/projects/perso-jeudeoie-2020/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/perso-jeudeoie-2020/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/perso-jeudeoie-2020/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/perso-jeudeoie-2020/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/projects/perso-hangman-java-2020/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/perso-hangman-java-2020/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/perso-hangman-java-2020/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/perso-hangman-java-2020/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/projects/perso-hangman-ruby-2020/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/perso-hangman-ruby-2020/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/perso-hangman-ruby-2020/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/perso-hangman-ruby-2020/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/projects/dop-my-marvin-2020/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/dop-my-marvin-2020/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/dop-my-marvin-2020/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/dop-my-marvin-2020/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/projects/perso-pong-2020/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/perso-pong-2020/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/perso-pong-2020/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/perso-pong-2020/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/projects/dop-popeye-2020/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/dop-popeye-2020/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/dop-popeye-2020/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/dop-popeye-2020/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/projects/cpp-rtype-2020/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpp-rtype-2020/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpp-rtype-2020/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpp-rtype-2020/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/projects/perso-rps-java-2020/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/perso-rps-java-2020/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/perso-rps-java-2020/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/perso-rps-java-2020/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/projects/cpp-zia-2020/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpp-zia-2020/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpp-zia-2020/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpp-zia-2020/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/projects/oop-arcade-2019/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/oop-arcade-2019/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/oop-arcade-2019/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/oop-arcade-2019/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/projects/cpp-d01-2019/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpp-d01-2019/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpp-d01-2019/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpp-d01-2019/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/projects/cpp-d02a-2019/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpp-d02a-2019/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpp-d02a-2019/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpp-d02a-2019/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/projects/cpp-d02m-2019/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpp-d02m-2019/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpp-d02m-2019/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpp-d02m-2019/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/projects/cpp-d03-2019/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpp-d03-2019/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpp-d03-2019/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpp-d03-2019/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/projects/cpp-d06-2019/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpp-d06-2019/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpp-d06-2019/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpp-d06-2019/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/projects/cpp-d07a-2019/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpp-d07a-2019/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpp-d07a-2019/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpp-d07a-2019/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/projects/cpp-d07m-2019/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpp-d07m-2019/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpp-d07m-2019/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpp-d07m-2019/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/projects/cpp-d08-2019/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpp-d08-2019/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpp-d08-2019/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpp-d08-2019/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/projects/cpp-d09-2019/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpp-d09-2019/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpp-d09-2019/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpp-d09-2019/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/projects/cpp-d10-2019/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpp-d10-2019/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpp-d10-2019/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpp-d10-2019/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/projects/cpp-d13-2019/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpp-d13-2019/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpp-d13-2019/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpp-d13-2019/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/projects/cpp-d14a-2019/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpp-d14a-2019/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpp-d14a-2019/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpp-d14a-2019/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/projects/cpp-d14m-2019/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpp-d14m-2019/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpp-d14m-2019/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpp-d14m-2019/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/projects/cpp-d15-2019/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpp-d15-2019/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpp-d15-2019/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpp-d15-2019/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/projects/cpp-d16-2019/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpp-d16-2019/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpp-d16-2019/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpp-d16-2019/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/projects/cpp-d17-2019/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpp-d17-2019/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpp-d17-2019/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpp-d17-2019/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/projects/cpp-rush1-2019/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpp-rush1-2019/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpp-rush1-2019/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpp-rush1-2019/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/projects/cpp-rush2-2019/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpp-rush2-2019/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpp-rush2-2019/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpp-rush2-2019/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/projects/cpp-rush3-2019/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpp-rush3-2019/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpp-rush3-2019/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpp-rush3-2019/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/projects/jam-space-2019/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/jam-space-2019/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/jam-space-2019/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/jam-space-2019/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/projects/psu-ftrace-2019/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/psu-ftrace-2019/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/psu-ftrace-2019/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/psu-ftrace-2019/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/projects/cna-groundhog-2019/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cna-groundhog-2019/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cna-groundhog-2019/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cna-groundhog-2019/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/projects/fun-imagecompressor-2019/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/fun-imagecompressor-2019/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/fun-imagecompressor-2019/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/fun-imagecompressor-2019/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/projects/yep-indie-studio-2019/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/yep-indie-studio-2019/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/yep-indie-studio-2019/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/yep-indie-studio-2019/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/projects/psu-malloc-2019/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/psu-malloc-2019/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/psu-malloc-2019/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/psu-malloc-2019/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/projects/asm-minilibc-2019/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/asm-minilibc-2019/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/asm-minilibc-2019/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/asm-minilibc-2019/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/projects/psu-nmobjdump-2019/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/psu-nmobjdump-2019/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/psu-nmobjdump-2019/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/psu-nmobjdump-2019/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/projects/nwp-myftp-2019/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/nwp-myftp-2019/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/nwp-myftp-2019/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/nwp-myftp-2019/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/projects/nwp-myteams-2019/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/nwp-myteams-2019/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/nwp-myteams-2019/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/nwp-myteams-2019/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/projects/oop-nanotekspice-2019/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/oop-nanotekspice-2019/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/oop-nanotekspice-2019/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/oop-nanotekspice-2019/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/projects/ccp-plazza-2019/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/ccp-plazza-2019/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/ccp-plazza-2019/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/ccp-plazza-2019/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/projects/perso-react-admin-side-2019/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/perso-react-admin-side-2019/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/perso-react-admin-side-2019/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/perso-react-admin-side-2019/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/projects/perso-react-carnet-book-2019/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/perso-react-carnet-book-2019/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/perso-react-carnet-book-2019/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/perso-react-carnet-book-2019/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/projects/perso-react-gallery-site-2019/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/perso-react-gallery-site-2019/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/perso-react-gallery-site-2019/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/perso-react-gallery-site-2019/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/projects/psu-strace-2019/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/psu-strace-2019/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/psu-strace-2019/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/psu-strace-2019/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/projects/cna-trade-2019/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cna-trade-2019/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cna-trade-2019/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cna-trade-2019/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/projects/perso-vue-todo-2019/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/perso-vue-todo-2019/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/perso-vue-todo-2019/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/perso-vue-todo-2019/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/projects/fun-wolfram-2019/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/fun-wolfram-2019/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/fun-wolfram-2019/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/fun-wolfram-2019/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/projects/yep-zappy-2019/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/yep-zappy-2019/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/yep-zappy-2019/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/yep-zappy-2019/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/projects/mat-101pong-2018/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/mat-101pong-2018/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/mat-101pong-2018/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/mat-101pong-2018/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/projects/mat-102architect-2018/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/mat-102architect-2018/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/mat-102architect-2018/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/mat-102architect-2018/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/projects/mat-103cipher-2018/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/mat-103cipher-2018/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/mat-103cipher-2018/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/mat-103cipher-2018/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/projects/mat-104intersection-2018/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/mat-104intersection-2018/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/mat-104intersection-2018/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/mat-104intersection-2018/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/projects/mat-105torus-2018/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/mat-105torus-2018/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/mat-105torus-2018/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/mat-105torus-2018/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/projects/psu-42sh-2018/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/psu-42sh-2018/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/psu-42sh-2018/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/psu-42sh-2018/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/projects/cpool-bistro-matic-2018/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpool-bistro-matic-2018/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpool-bistro-matic-2018/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpool-bistro-matic-2018/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/projects/cpool-day01-2018/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpool-day01-2018/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpool-day01-2018/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpool-day01-2018/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/projects/cpool-day02-2018/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpool-day02-2018/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpool-day02-2018/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpool-day02-2018/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/projects/cpool-day03-2018/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpool-day03-2018/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpool-day03-2018/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpool-day03-2018/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/projects/cpool-day04-2018/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpool-day04-2018/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpool-day04-2018/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpool-day04-2018/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/projects/cpool-day05-2018/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpool-day05-2018/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpool-day05-2018/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpool-day05-2018/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/projects/cpool-day06-2018/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpool-day06-2018/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpool-day06-2018/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpool-day06-2018/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/projects/cpool-day07-2018/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpool-day07-2018/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpool-day07-2018/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpool-day07-2018/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/projects/cpool-day08-2018/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpool-day08-2018/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpool-day08-2018/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpool-day08-2018/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/projects/cpool-day09-2018/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpool-day09-2018/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpool-day09-2018/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpool-day09-2018/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/projects/cpool-day10-2018/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpool-day10-2018/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpool-day10-2018/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpool-day10-2018/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/projects/cpool-day11-2018/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpool-day11-2018/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpool-day11-2018/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpool-day11-2018/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/projects/cpool-day12-2018/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpool-day12-2018/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpool-day12-2018/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpool-day12-2018/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/projects/cpool-day13-2018/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpool-day13-2018/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpool-day13-2018/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpool-day13-2018/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/projects/cpe-corewar-2018/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpe-corewar-2018/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpe-corewar-2018/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpe-corewar-2018/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/projects/cpe-dante-2018/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpe-dante-2018/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpe-dante-2018/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpe-dante-2018/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/projects/stumper-duo1-2018/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/stumper-duo1-2018/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/stumper-duo1-2018/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/stumper-duo1-2018/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/projects/stumper-duo2-2018/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/stumper-duo2-2018/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/stumper-duo2-2018/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/stumper-duo2-2018/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/projects/stumper-duo3-2018/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/stumper-duo3-2018/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/stumper-duo3-2018/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/stumper-duo3-2018/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/projects/cpool-evalexpr-2018/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpool-evalexpr-2018/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpool-evalexpr-2018/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpool-evalexpr-2018/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/projects/cpool-finalstumper-2018/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpool-finalstumper-2018/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpool-finalstumper-2018/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpool-finalstumper-2018/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/projects/cpe-getnextline-2018/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpe-getnextline-2018/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpe-getnextline-2018/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpe-getnextline-2018/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/projects/cpool-infinadd-2018/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpool-infinadd-2018/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpool-infinadd-2018/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpool-infinadd-2018/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/projects/cpe-lemin-2018/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpe-lemin-2018/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpe-lemin-2018/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpe-lemin-2018/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/projects/cpool-match-nmatch-2018/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpool-match-nmatch-2018/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpool-match-nmatch-2018/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpool-match-nmatch-2018/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/projects/cpe-matchstick-2018/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpe-matchstick-2018/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpe-matchstick-2018/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpe-matchstick-2018/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/projects/psu-minishell1-2018/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/psu-minishell1-2018/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/psu-minishell1-2018/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/psu-minishell1-2018/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/projects/psu-minishell2-2018/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/psu-minishell2-2018/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/psu-minishell2-2018/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/psu-minishell2-2018/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/projects/mul-my-defender-2018/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/mul-my-defender-2018/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/mul-my-defender-2018/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/mul-my-defender-2018/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/projects/mul-my-hunter-2018/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/mul-my-hunter-2018/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/mul-my-hunter-2018/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/mul-my-hunter-2018/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/projects/mul-my-rpg-2018/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/mul-my-rpg-2018/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/mul-my-rpg-2018/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/mul-my-rpg-2018/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/projects/mul-my-runner-2018/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/mul-my-runner-2018/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/mul-my-runner-2018/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/mul-my-runner-2018/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/projects/psu-my-ls-2018/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/psu-my-ls-2018/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/psu-my-ls-2018/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/psu-my-ls-2018/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/projects/psu-navy-2018/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/psu-navy-2018/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/psu-navy-2018/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/psu-navy-2018/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/projects/psu-my-printf-2018/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/psu-my-printf-2018/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/psu-my-printf-2018/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/psu-my-printf-2018/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/projects/psu-my-sokoban-2018/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/psu-my-sokoban-2018/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/psu-my-sokoban-2018/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/psu-my-sokoban-2018/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/projects/cpe-pushswap-2018/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpe-pushswap-2018/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpe-pushswap-2018/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpe-pushswap-2018/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/projects/cpool-rush1-2018/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpool-rush1-2018/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpool-rush1-2018/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpool-rush1-2018/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/projects/cpool-rush2-2018/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpool-rush2-2018/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpool-rush2-2018/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpool-rush2-2018/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/projects/stumper-solo1-2018/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/stumper-solo1-2018/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/stumper-solo1-2018/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/stumper-solo1-2018/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/projects/stumper-solo2-2018/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/stumper-solo2-2018/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/stumper-solo2-2018/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/stumper-solo2-2018/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/projects/psu-tetris-2018/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/psu-tetris-2018/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/psu-tetris-2018/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/psu-tetris-2018/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/projects/cpool-tree-2018/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpool-tree-2018/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpool-tree-2018/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpool-tree-2018/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/projects/cpool-workshoplib-2018/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpool-workshoplib-2018/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpool-workshoplib-2018/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpool-workshoplib-2018/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/fr/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/" />
+<changefreq>monthly</changefreq>
+<priority>0.9</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/fr/projects/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/fr/about/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/about/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/about/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/about/" />
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/fr/projects/iot-careplant-2022/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/iot-careplant-2022/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/iot-careplant-2022/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/iot-careplant-2022/" />
+<changefreq>monthly</changefreq>
+<priority>0.7000000000000001</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/fr/projects/perso-threejs-journey-2022/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/perso-threejs-journey-2022/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/perso-threejs-journey-2022/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/perso-threejs-journey-2022/" />
+<changefreq>monthly</changefreq>
+<priority>0.7000000000000001</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpp-babel-2020/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpp-babel-2020/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpp-babel-2020/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpp-babel-2020/" />
+<changefreq>monthly</changefreq>
+<priority>0.7000000000000001</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/fr/projects/dop-bernstein-2020/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/dop-bernstein-2020/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/dop-bernstein-2020/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/dop-bernstein-2020/" />
+<changefreq>monthly</changefreq>
+<priority>0.7000000000000001</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/fr/projects/perso-brickbreaker-2020/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/perso-brickbreaker-2020/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/perso-brickbreaker-2020/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/perso-brickbreaker-2020/" />
+<changefreq>monthly</changefreq>
+<priority>0.7000000000000001</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/fr/projects/sec-crypto-2020/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/sec-crypto-2020/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/sec-crypto-2020/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/sec-crypto-2020/" />
+<changefreq>monthly</changefreq>
+<priority>0.7000000000000001</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/fr/projects/dev-dashboard-2020/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/dev-dashboard-2020/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/dev-dashboard-2020/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/dev-dashboard-2020/" />
+<changefreq>monthly</changefreq>
+<priority>0.7000000000000001</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/fr/projects/perso-botdiscord-2020/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/perso-botdiscord-2020/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/perso-botdiscord-2020/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/perso-botdiscord-2020/" />
+<changefreq>monthly</changefreq>
+<priority>0.7000000000000001</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/fr/projects/dev-epicture-2020/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/dev-epicture-2020/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/dev-epicture-2020/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/dev-epicture-2020/" />
+<changefreq>monthly</changefreq>
+<priority>0.7000000000000001</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/fr/projects/perso-jeudeoie-2020/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/perso-jeudeoie-2020/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/perso-jeudeoie-2020/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/perso-jeudeoie-2020/" />
+<changefreq>monthly</changefreq>
+<priority>0.7000000000000001</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/fr/projects/perso-hangman-java-2020/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/perso-hangman-java-2020/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/perso-hangman-java-2020/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/perso-hangman-java-2020/" />
+<changefreq>monthly</changefreq>
+<priority>0.7000000000000001</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/fr/projects/perso-hangman-ruby-2020/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/perso-hangman-ruby-2020/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/perso-hangman-ruby-2020/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/perso-hangman-ruby-2020/" />
+<changefreq>monthly</changefreq>
+<priority>0.7000000000000001</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/fr/projects/dop-my-marvin-2020/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/dop-my-marvin-2020/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/dop-my-marvin-2020/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/dop-my-marvin-2020/" />
+<changefreq>monthly</changefreq>
+<priority>0.7000000000000001</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/fr/projects/perso-pong-2020/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/perso-pong-2020/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/perso-pong-2020/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/perso-pong-2020/" />
+<changefreq>monthly</changefreq>
+<priority>0.7000000000000001</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/fr/projects/dop-popeye-2020/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/dop-popeye-2020/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/dop-popeye-2020/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/dop-popeye-2020/" />
+<changefreq>monthly</changefreq>
+<priority>0.7000000000000001</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpp-rtype-2020/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpp-rtype-2020/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpp-rtype-2020/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpp-rtype-2020/" />
+<changefreq>monthly</changefreq>
+<priority>0.7000000000000001</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/fr/projects/perso-rps-java-2020/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/perso-rps-java-2020/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/perso-rps-java-2020/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/perso-rps-java-2020/" />
+<changefreq>monthly</changefreq>
+<priority>0.7000000000000001</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpp-zia-2020/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpp-zia-2020/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpp-zia-2020/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpp-zia-2020/" />
+<changefreq>monthly</changefreq>
+<priority>0.7000000000000001</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/fr/projects/oop-arcade-2019/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/oop-arcade-2019/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/oop-arcade-2019/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/oop-arcade-2019/" />
+<changefreq>monthly</changefreq>
+<priority>0.7000000000000001</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpp-d01-2019/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpp-d01-2019/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpp-d01-2019/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpp-d01-2019/" />
+<changefreq>monthly</changefreq>
+<priority>0.7000000000000001</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpp-d02a-2019/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpp-d02a-2019/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpp-d02a-2019/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpp-d02a-2019/" />
+<changefreq>monthly</changefreq>
+<priority>0.7000000000000001</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpp-d02m-2019/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpp-d02m-2019/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpp-d02m-2019/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpp-d02m-2019/" />
+<changefreq>monthly</changefreq>
+<priority>0.7000000000000001</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpp-d03-2019/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpp-d03-2019/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpp-d03-2019/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpp-d03-2019/" />
+<changefreq>monthly</changefreq>
+<priority>0.7000000000000001</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpp-d06-2019/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpp-d06-2019/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpp-d06-2019/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpp-d06-2019/" />
+<changefreq>monthly</changefreq>
+<priority>0.7000000000000001</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpp-d07a-2019/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpp-d07a-2019/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpp-d07a-2019/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpp-d07a-2019/" />
+<changefreq>monthly</changefreq>
+<priority>0.7000000000000001</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpp-d07m-2019/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpp-d07m-2019/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpp-d07m-2019/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpp-d07m-2019/" />
+<changefreq>monthly</changefreq>
+<priority>0.7000000000000001</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpp-d08-2019/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpp-d08-2019/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpp-d08-2019/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpp-d08-2019/" />
+<changefreq>monthly</changefreq>
+<priority>0.7000000000000001</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpp-d09-2019/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpp-d09-2019/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpp-d09-2019/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpp-d09-2019/" />
+<changefreq>monthly</changefreq>
+<priority>0.7000000000000001</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpp-d10-2019/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpp-d10-2019/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpp-d10-2019/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpp-d10-2019/" />
+<changefreq>monthly</changefreq>
+<priority>0.7000000000000001</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpp-d13-2019/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpp-d13-2019/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpp-d13-2019/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpp-d13-2019/" />
+<changefreq>monthly</changefreq>
+<priority>0.7000000000000001</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpp-d14a-2019/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpp-d14a-2019/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpp-d14a-2019/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpp-d14a-2019/" />
+<changefreq>monthly</changefreq>
+<priority>0.7000000000000001</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpp-d14m-2019/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpp-d14m-2019/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpp-d14m-2019/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpp-d14m-2019/" />
+<changefreq>monthly</changefreq>
+<priority>0.7000000000000001</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpp-d15-2019/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpp-d15-2019/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpp-d15-2019/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpp-d15-2019/" />
+<changefreq>monthly</changefreq>
+<priority>0.7000000000000001</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpp-d16-2019/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpp-d16-2019/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpp-d16-2019/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpp-d16-2019/" />
+<changefreq>monthly</changefreq>
+<priority>0.7000000000000001</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpp-d17-2019/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpp-d17-2019/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpp-d17-2019/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpp-d17-2019/" />
+<changefreq>monthly</changefreq>
+<priority>0.7000000000000001</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpp-rush1-2019/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpp-rush1-2019/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpp-rush1-2019/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpp-rush1-2019/" />
+<changefreq>monthly</changefreq>
+<priority>0.7000000000000001</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpp-rush2-2019/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpp-rush2-2019/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpp-rush2-2019/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpp-rush2-2019/" />
+<changefreq>monthly</changefreq>
+<priority>0.7000000000000001</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpp-rush3-2019/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpp-rush3-2019/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpp-rush3-2019/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpp-rush3-2019/" />
+<changefreq>monthly</changefreq>
+<priority>0.7000000000000001</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/fr/projects/jam-space-2019/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/jam-space-2019/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/jam-space-2019/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/jam-space-2019/" />
+<changefreq>monthly</changefreq>
+<priority>0.7000000000000001</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/fr/projects/psu-ftrace-2019/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/psu-ftrace-2019/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/psu-ftrace-2019/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/psu-ftrace-2019/" />
+<changefreq>monthly</changefreq>
+<priority>0.7000000000000001</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cna-groundhog-2019/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cna-groundhog-2019/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cna-groundhog-2019/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cna-groundhog-2019/" />
+<changefreq>monthly</changefreq>
+<priority>0.7000000000000001</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/fr/projects/fun-imagecompressor-2019/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/fun-imagecompressor-2019/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/fun-imagecompressor-2019/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/fun-imagecompressor-2019/" />
+<changefreq>monthly</changefreq>
+<priority>0.7000000000000001</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/fr/projects/yep-indie-studio-2019/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/yep-indie-studio-2019/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/yep-indie-studio-2019/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/yep-indie-studio-2019/" />
+<changefreq>monthly</changefreq>
+<priority>0.7000000000000001</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/fr/projects/psu-malloc-2019/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/psu-malloc-2019/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/psu-malloc-2019/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/psu-malloc-2019/" />
+<changefreq>monthly</changefreq>
+<priority>0.7000000000000001</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/fr/projects/asm-minilibc-2019/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/asm-minilibc-2019/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/asm-minilibc-2019/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/asm-minilibc-2019/" />
+<changefreq>monthly</changefreq>
+<priority>0.7000000000000001</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/fr/projects/psu-nmobjdump-2019/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/psu-nmobjdump-2019/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/psu-nmobjdump-2019/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/psu-nmobjdump-2019/" />
+<changefreq>monthly</changefreq>
+<priority>0.7000000000000001</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/fr/projects/nwp-myftp-2019/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/nwp-myftp-2019/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/nwp-myftp-2019/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/nwp-myftp-2019/" />
+<changefreq>monthly</changefreq>
+<priority>0.7000000000000001</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/fr/projects/nwp-myteams-2019/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/nwp-myteams-2019/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/nwp-myteams-2019/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/nwp-myteams-2019/" />
+<changefreq>monthly</changefreq>
+<priority>0.7000000000000001</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/fr/projects/oop-nanotekspice-2019/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/oop-nanotekspice-2019/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/oop-nanotekspice-2019/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/oop-nanotekspice-2019/" />
+<changefreq>monthly</changefreq>
+<priority>0.7000000000000001</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/fr/projects/ccp-plazza-2019/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/ccp-plazza-2019/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/ccp-plazza-2019/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/ccp-plazza-2019/" />
+<changefreq>monthly</changefreq>
+<priority>0.7000000000000001</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/fr/projects/perso-react-admin-side-2019/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/perso-react-admin-side-2019/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/perso-react-admin-side-2019/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/perso-react-admin-side-2019/" />
+<changefreq>monthly</changefreq>
+<priority>0.7000000000000001</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/fr/projects/perso-react-carnet-book-2019/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/perso-react-carnet-book-2019/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/perso-react-carnet-book-2019/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/perso-react-carnet-book-2019/" />
+<changefreq>monthly</changefreq>
+<priority>0.7000000000000001</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/fr/projects/perso-react-gallery-site-2019/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/perso-react-gallery-site-2019/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/perso-react-gallery-site-2019/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/perso-react-gallery-site-2019/" />
+<changefreq>monthly</changefreq>
+<priority>0.7000000000000001</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/fr/projects/psu-strace-2019/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/psu-strace-2019/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/psu-strace-2019/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/psu-strace-2019/" />
+<changefreq>monthly</changefreq>
+<priority>0.7000000000000001</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cna-trade-2019/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cna-trade-2019/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cna-trade-2019/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cna-trade-2019/" />
+<changefreq>monthly</changefreq>
+<priority>0.7000000000000001</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/fr/projects/perso-vue-todo-2019/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/perso-vue-todo-2019/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/perso-vue-todo-2019/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/perso-vue-todo-2019/" />
+<changefreq>monthly</changefreq>
+<priority>0.7000000000000001</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/fr/projects/fun-wolfram-2019/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/fun-wolfram-2019/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/fun-wolfram-2019/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/fun-wolfram-2019/" />
+<changefreq>monthly</changefreq>
+<priority>0.7000000000000001</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/fr/projects/yep-zappy-2019/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/yep-zappy-2019/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/yep-zappy-2019/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/yep-zappy-2019/" />
+<changefreq>monthly</changefreq>
+<priority>0.7000000000000001</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/fr/projects/mat-101pong-2018/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/mat-101pong-2018/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/mat-101pong-2018/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/mat-101pong-2018/" />
+<changefreq>monthly</changefreq>
+<priority>0.7000000000000001</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/fr/projects/mat-102architect-2018/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/mat-102architect-2018/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/mat-102architect-2018/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/mat-102architect-2018/" />
+<changefreq>monthly</changefreq>
+<priority>0.7000000000000001</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/fr/projects/mat-103cipher-2018/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/mat-103cipher-2018/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/mat-103cipher-2018/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/mat-103cipher-2018/" />
+<changefreq>monthly</changefreq>
+<priority>0.7000000000000001</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/fr/projects/mat-104intersection-2018/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/mat-104intersection-2018/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/mat-104intersection-2018/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/mat-104intersection-2018/" />
+<changefreq>monthly</changefreq>
+<priority>0.7000000000000001</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/fr/projects/mat-105torus-2018/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/mat-105torus-2018/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/mat-105torus-2018/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/mat-105torus-2018/" />
+<changefreq>monthly</changefreq>
+<priority>0.7000000000000001</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/fr/projects/psu-42sh-2018/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/psu-42sh-2018/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/psu-42sh-2018/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/psu-42sh-2018/" />
+<changefreq>monthly</changefreq>
+<priority>0.7000000000000001</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpool-bistro-matic-2018/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpool-bistro-matic-2018/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpool-bistro-matic-2018/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpool-bistro-matic-2018/" />
+<changefreq>monthly</changefreq>
+<priority>0.7000000000000001</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpool-day01-2018/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpool-day01-2018/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpool-day01-2018/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpool-day01-2018/" />
+<changefreq>monthly</changefreq>
+<priority>0.7000000000000001</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpool-day02-2018/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpool-day02-2018/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpool-day02-2018/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpool-day02-2018/" />
+<changefreq>monthly</changefreq>
+<priority>0.7000000000000001</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpool-day03-2018/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpool-day03-2018/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpool-day03-2018/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpool-day03-2018/" />
+<changefreq>monthly</changefreq>
+<priority>0.7000000000000001</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpool-day04-2018/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpool-day04-2018/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpool-day04-2018/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpool-day04-2018/" />
+<changefreq>monthly</changefreq>
+<priority>0.7000000000000001</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpool-day05-2018/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpool-day05-2018/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpool-day05-2018/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpool-day05-2018/" />
+<changefreq>monthly</changefreq>
+<priority>0.7000000000000001</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpool-day06-2018/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpool-day06-2018/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpool-day06-2018/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpool-day06-2018/" />
+<changefreq>monthly</changefreq>
+<priority>0.7000000000000001</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpool-day07-2018/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpool-day07-2018/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpool-day07-2018/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpool-day07-2018/" />
+<changefreq>monthly</changefreq>
+<priority>0.7000000000000001</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpool-day08-2018/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpool-day08-2018/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpool-day08-2018/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpool-day08-2018/" />
+<changefreq>monthly</changefreq>
+<priority>0.7000000000000001</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpool-day09-2018/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpool-day09-2018/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpool-day09-2018/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpool-day09-2018/" />
+<changefreq>monthly</changefreq>
+<priority>0.7000000000000001</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpool-day10-2018/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpool-day10-2018/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpool-day10-2018/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpool-day10-2018/" />
+<changefreq>monthly</changefreq>
+<priority>0.7000000000000001</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpool-day11-2018/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpool-day11-2018/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpool-day11-2018/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpool-day11-2018/" />
+<changefreq>monthly</changefreq>
+<priority>0.7000000000000001</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpool-day12-2018/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpool-day12-2018/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpool-day12-2018/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpool-day12-2018/" />
+<changefreq>monthly</changefreq>
+<priority>0.7000000000000001</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpool-day13-2018/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpool-day13-2018/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpool-day13-2018/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpool-day13-2018/" />
+<changefreq>monthly</changefreq>
+<priority>0.7000000000000001</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpe-corewar-2018/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpe-corewar-2018/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpe-corewar-2018/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpe-corewar-2018/" />
+<changefreq>monthly</changefreq>
+<priority>0.7000000000000001</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpe-dante-2018/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpe-dante-2018/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpe-dante-2018/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpe-dante-2018/" />
+<changefreq>monthly</changefreq>
+<priority>0.7000000000000001</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/fr/projects/stumper-duo1-2018/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/stumper-duo1-2018/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/stumper-duo1-2018/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/stumper-duo1-2018/" />
+<changefreq>monthly</changefreq>
+<priority>0.7000000000000001</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/fr/projects/stumper-duo2-2018/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/stumper-duo2-2018/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/stumper-duo2-2018/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/stumper-duo2-2018/" />
+<changefreq>monthly</changefreq>
+<priority>0.7000000000000001</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/fr/projects/stumper-duo3-2018/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/stumper-duo3-2018/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/stumper-duo3-2018/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/stumper-duo3-2018/" />
+<changefreq>monthly</changefreq>
+<priority>0.7000000000000001</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpool-evalexpr-2018/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpool-evalexpr-2018/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpool-evalexpr-2018/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpool-evalexpr-2018/" />
+<changefreq>monthly</changefreq>
+<priority>0.7000000000000001</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpool-finalstumper-2018/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpool-finalstumper-2018/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpool-finalstumper-2018/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpool-finalstumper-2018/" />
+<changefreq>monthly</changefreq>
+<priority>0.7000000000000001</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpe-getnextline-2018/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpe-getnextline-2018/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpe-getnextline-2018/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpe-getnextline-2018/" />
+<changefreq>monthly</changefreq>
+<priority>0.7000000000000001</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpool-infinadd-2018/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpool-infinadd-2018/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpool-infinadd-2018/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpool-infinadd-2018/" />
+<changefreq>monthly</changefreq>
+<priority>0.7000000000000001</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpe-lemin-2018/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpe-lemin-2018/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpe-lemin-2018/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpe-lemin-2018/" />
+<changefreq>monthly</changefreq>
+<priority>0.7000000000000001</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpool-match-nmatch-2018/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpool-match-nmatch-2018/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpool-match-nmatch-2018/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpool-match-nmatch-2018/" />
+<changefreq>monthly</changefreq>
+<priority>0.7000000000000001</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpe-matchstick-2018/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpe-matchstick-2018/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpe-matchstick-2018/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpe-matchstick-2018/" />
+<changefreq>monthly</changefreq>
+<priority>0.7000000000000001</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/fr/projects/psu-minishell1-2018/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/psu-minishell1-2018/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/psu-minishell1-2018/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/psu-minishell1-2018/" />
+<changefreq>monthly</changefreq>
+<priority>0.7000000000000001</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/fr/projects/psu-minishell2-2018/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/psu-minishell2-2018/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/psu-minishell2-2018/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/psu-minishell2-2018/" />
+<changefreq>monthly</changefreq>
+<priority>0.7000000000000001</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/fr/projects/mul-my-defender-2018/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/mul-my-defender-2018/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/mul-my-defender-2018/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/mul-my-defender-2018/" />
+<changefreq>monthly</changefreq>
+<priority>0.7000000000000001</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/fr/projects/mul-my-hunter-2018/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/mul-my-hunter-2018/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/mul-my-hunter-2018/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/mul-my-hunter-2018/" />
+<changefreq>monthly</changefreq>
+<priority>0.7000000000000001</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/fr/projects/mul-my-rpg-2018/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/mul-my-rpg-2018/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/mul-my-rpg-2018/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/mul-my-rpg-2018/" />
+<changefreq>monthly</changefreq>
+<priority>0.7000000000000001</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/fr/projects/mul-my-runner-2018/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/mul-my-runner-2018/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/mul-my-runner-2018/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/mul-my-runner-2018/" />
+<changefreq>monthly</changefreq>
+<priority>0.7000000000000001</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/fr/projects/psu-my-ls-2018/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/psu-my-ls-2018/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/psu-my-ls-2018/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/psu-my-ls-2018/" />
+<changefreq>monthly</changefreq>
+<priority>0.7000000000000001</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/fr/projects/psu-navy-2018/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/psu-navy-2018/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/psu-navy-2018/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/psu-navy-2018/" />
+<changefreq>monthly</changefreq>
+<priority>0.7000000000000001</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/fr/projects/psu-my-printf-2018/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/psu-my-printf-2018/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/psu-my-printf-2018/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/psu-my-printf-2018/" />
+<changefreq>monthly</changefreq>
+<priority>0.7000000000000001</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/fr/projects/psu-my-sokoban-2018/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/psu-my-sokoban-2018/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/psu-my-sokoban-2018/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/psu-my-sokoban-2018/" />
+<changefreq>monthly</changefreq>
+<priority>0.7000000000000001</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpe-pushswap-2018/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpe-pushswap-2018/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpe-pushswap-2018/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpe-pushswap-2018/" />
+<changefreq>monthly</changefreq>
+<priority>0.7000000000000001</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpool-rush1-2018/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpool-rush1-2018/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpool-rush1-2018/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpool-rush1-2018/" />
+<changefreq>monthly</changefreq>
+<priority>0.7000000000000001</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpool-rush2-2018/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpool-rush2-2018/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpool-rush2-2018/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpool-rush2-2018/" />
+<changefreq>monthly</changefreq>
+<priority>0.7000000000000001</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/fr/projects/stumper-solo1-2018/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/stumper-solo1-2018/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/stumper-solo1-2018/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/stumper-solo1-2018/" />
+<changefreq>monthly</changefreq>
+<priority>0.7000000000000001</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/fr/projects/stumper-solo2-2018/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/stumper-solo2-2018/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/stumper-solo2-2018/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/stumper-solo2-2018/" />
+<changefreq>monthly</changefreq>
+<priority>0.7000000000000001</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/fr/projects/psu-tetris-2018/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/psu-tetris-2018/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/psu-tetris-2018/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/psu-tetris-2018/" />
+<changefreq>monthly</changefreq>
+<priority>0.7000000000000001</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpool-tree-2018/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpool-tree-2018/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpool-tree-2018/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpool-tree-2018/" />
+<changefreq>monthly</changefreq>
+<priority>0.7000000000000001</priority>
+</url>
+<url>
+<loc>https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpool-workshoplib-2018/</loc>
+<xhtml:link rel="alternate" hreflang="en-US" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpool-workshoplib-2018/" />
+<xhtml:link rel="alternate" hreflang="fr-FR" href="https://antoinepoisson.github.io/Old-School-Projects/fr/projects/cpool-workshoplib-2018/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://antoinepoisson.github.io/Old-School-Projects/projects/cpool-workshoplib-2018/" />
+<changefreq>monthly</changefreq>
+<priority>0.7000000000000001</priority>
+</url>
+</urlset>

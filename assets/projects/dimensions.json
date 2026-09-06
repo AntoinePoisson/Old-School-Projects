@@ -1,0 +1,62 @@
+{
+  "cpp-babel-2020/BabelUML": {
+    "width": 4594,
+    "height": 2090
+  },
+  "dev-dashboard-2020/main_page": {
+    "width": 1622,
+    "height": 966
+  },
+  "dev-dashboard-2020/screen1": {
+    "width": 2000,
+    "height": 1200
+  },
+  "dev-dashboard-2020/screen8": {
+    "width": 1627,
+    "height": 968
+  },
+  "dev-dashboard-2020/service": {
+    "width": 1628,
+    "height": 969
+  },
+  "dev-dashboard-2020/setting": {
+    "width": 331,
+    "height": 499
+  },
+  "perso-brickbreaker-2020/loose": {
+    "width": 550,
+    "height": 600
+  },
+  "perso-brickbreaker-2020/win": {
+    "width": 550,
+    "height": 600
+  },
+  "perso-pong-2020/Victoire_final_B": {
+    "width": 1050,
+    "height": 500
+  },
+  "perso-pong-2020/Victoire_final_R": {
+    "width": 1050,
+    "height": 500
+  },
+  "perso-react-admin-side-2019/look": {
+    "width": 1750,
+    "height": 817
+  },
+  "perso-react-admin-side-2019/look2": {
+    "width": 1738,
+    "height": 815
+  },
+  "perso-react-carnet-book-2019/look": {
+    "width": 1747,
+    "height": 888
+  },
+  "perso-react-gallery-site-2019/look": {
+    "width": 1738,
+    "height": 894
+  },
+  "perso-vue-todo-2019/look": {
+    "width": 1052,
+    "height": 692
+  }
+}

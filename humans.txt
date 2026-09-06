@@ -1,0 +1,48 @@
+╔═══════════════════════════════════════════╗
+║                                           ║
+║         ██╗ █████╗ ███████╗██████╗        ║
+║         ██║██╔══██╗██╔════╝██╔══██╗       ║
+║         ██║███████║███████╗██║  ██║       ║
+║    ██   ██║██╔══██║╚════██║██║  ██║       ║
+║    ╚█████╔╝██║  ██║███████║██████╔╝       ║
+║     ╚════╝ ╚═╝  ╚═╝╚══════╝╚═════╝        ║
+║                        just a simple dev  ║
+╚═══════════════════════════════════════════╝
+
+"He who works with his hands is a laborer;
+ he who works with his hands and his head is a craftsman;
+ he who works with his hands, his head, and his heart is an artist."
+  — ???
+
+
+╔═[ WHO? ]═══════════════════════╗
+║ One dev.
+║ Somewhere in France.
+║ https://jasd.co | contact@jasd.co
+╚════════════════════════════════╝
+
+╔═[ WHY? ]═══════════════════════╗
+║ back_in_school — 108 school and personal
+║ projects from 2018 to 2023, kept as they
+║ were shipped and indexed without erasing
+║ their history.
+║
+║ Every number on the site is derived from
+║ the project manifests in the repository it
+║ is built from. Nothing is hand-counted.
+╚════════════════════════════════╝
+
+╔═[ HOW? ]═══════════════════════╗
+║ Language   — TypeScript
+║ Framework  — Next.js (static export)
+║ i18n       — Lingui
+║ Styles     — Tailwind CSS, and ~2,600 lines
+║              of hand-written CRT
+║ Tests      — Vitest, Playwright
+║ Hosting    — Cloudflare Workers
+║ Sleep      — overrated
+╚════════════════════════════════╝
+
+╔═[ WHEN? ]══════════════════════╗
+║ v0.1.0 — 2026/08/03
+╚════════════════════════════════╝

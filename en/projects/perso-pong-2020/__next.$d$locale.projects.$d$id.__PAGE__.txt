@@ -1,0 +1,55 @@
+1:"$Sreact.fragment"
+3:I[330,["184","static/chunks/184-28d8e848d47fde09.js","926","static/chunks/926-51b488d596ed0623.js","606","static/chunks/app/%5Blocale%5D/projects/%5Bid%5D/page-997ddd4dce71c20a.js"],"default"]
+2:T60c,{"@context":"https://schema.org","@graph":[{"@type":"Person","@id":"https://jasd.co/#person","name":"Antoine Poisson","url":"https://jasd.co","sameAs":["https://github.com/AntoinePoisson","https://www.linkedin.com/in/AntoinePoisson"],"knowsAbout":["Systems programming","C","C++","Networks","Real-time software","Web development"]},{"@type":"SoftwareSourceCode","@id":"https://antoinepoisson.github.io/Old-School-Projects/projects/perso-pong-2020/#project","url":"https://antoinepoisson.github.io/Old-School-Projects/projects/perso-pong-2020/","name":"Pong","alternateName":"PONG","description":"Two-player Pong in Python: the 1972 game that launched the entire video game industry.","inLanguage":"en-US","dateCreated":"2020","codeRepository":"https://github.com/AntoinePoisson/Old-School-Projects__/tree/main/Tek3/SideProjects/Pong_Python","programmingLanguage":["Python"],"keywords":["python","video-game","game loop","return angle depending on the impact point","local two-player mode"],"author":{"@id":"https://jasd.co/#person"},"isPartOf":{"@id":"https://antoinepoisson.github.io/Old-School-Projects/projects/#collection"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://antoinepoisson.github.io/Old-School-Projects/"},{"@type":"ListItem","position":2,"name":"Projects","item":"https://antoinepoisson.github.io/Old-School-Projects/projects/"},{"@type":"ListItem","position":3,"name":"PONG","item":"https://antoinepoisson.github.io/Old-School-Projects/projects/perso-pong-2020/"}]}]}4:T421,pygame.init()
+
+sound_background = pygame.mixer.Sound("musics/sound_arcade.wav")
+sound_background.play(loops=-1, maxtime=0, fade_ms=0)
+
+loop_main = True
+
+while loop_main:
+    window = pygame.display.set_mode((450, 450))
+    # pygame.display.set_icon(pygame.image.load("images/icone.png"))
+    pygame.display.set_caption("Pong")
+    window.blit(pygame.image.load("images/background_home_menu.png"), ((0, 0)))
+    pygame.display.flip()
+
+    loop_menu = True
+    selected = ""
+
+    while loop_menu and loop_main:
+        hitbox_start = pygame.Rect((25,347), (399,33))
+        hitbox_leave = pygame.Rect((25,389), (313,33))
+        for event in pygame.event.get():
+            if event.type == QUIT or event.type == KEYDOWN and event.key == K_ESCAPE:
+                loop_main = False
+            elif event.type == KEYDOWN:
+                if event.key == K_F1:
+                    loop_menu = False
+                    selected = "InGame"
+                elif event.key == K_F2:
+                    loop_main = False
+            if event.type == MOUSEBUTTONUP:7:X
+c:X
+c:C
+0:{"buildId":"fiPBfymlTAIi0PCdU3MZC","data":[{"rsc":["$","$1","c",{"children":[[["$","script",null,{"dangerouslySetInnerHTML":{"__html":"$2"},"type":"application/ld+json"}],["$","$L3",null,{"detail":{"id":"perso-pong-2020","name":"PONG","title":{"en":"Pong","fr":"Pong"},"pitch":{"en":"Two-player Pong in Python: the 1972 game that launched the entire video game industry.","fr":"Pong à deux joueurs en Python : le jeu de 1972 qui a lancé toute l'industrie du jeu vidéo."},"year":2020,"academicYear":"2020–2021","duration":{"en":"2 weeks","fr":"2 semaines"},"grade":"—","category":"game","languages":["Python"],"path":"Tek3/SideProjects/Pong_Python","description":{"en":"The grandfather of video games, re-coded in Python: two paddles, a ball, and a score. A two-player version on the same keyboard, with separate victory screens for the red player and the blue player.","fr":"Le grand-père du jeu vidéo, recodé en Python : deux raquettes, une balle, et un score. Version deux joueurs sur le même clavier, avec des écrans de victoire distincts pour le joueur rouge et le joueur bleu."},"technical":{"en":"Two-player Pong in pygame, sharing the architecture of the brick breaker in the same folder: menu, game loop, entities and end screens.","fr":"Pong à deux joueurs en pygame, partageant l'architecture du casse-briques du même dossier : menu, boucle de jeu, entités et écrans de fin."},"module":{"code":null,"label":null},"semester":5,"type":"perso","tags":["python","video-game"],"team":{"solo":null,"size":null},"tools":["pygame","Git"],"concepts":[{"en":"game loop","fr":"boucle de jeu"},{"en":"return angle depending on the impact point","fr":"angle de renvoi dépendant du point d'impact"},{"en":"local two-player mode","fr":"mode deux joueurs local"}],"constraints":[{"en":"personal project, with no imposed subject","fr":"projet personnel, sans sujet imposé"}],"features":[{"en":"Pong in Python with Pygame, two players on the keyboard","fr":"Pong en Python avec Pygame, deux joueurs au clavier"},{"en":"The same breakdown as the brick breaker in the same series: run, game, entities, endGame","fr":"Même découpage que le casse-briques de la même série : run, game, entities, endGame"},{"en":"Ball acceleration as the rallies go on","fr":"Accélération de la balle au fil des échanges"}],"highlights":[{"en":"Architecture reused from one game to the next, a pattern consciously extracted","fr":"Architecture réutilisée d'un jeu à l'autre, motif dégagé consciemment"},{"en":"Return angle designed for playability rather than physical accuracy","fr":"Angle de renvoi conçu pour le plaisir de jeu plutôt que pour l'exactitude physique"}],"bonus":{"hasBonus":false,"items":[],"notes":{"en":"A personal project, written for fun during lockdown.","fr":"Projet personnel, écrit pour le plaisir pendant le confinement."}},"tests":{"hasTests":false,"frameworks":[],"notes":{"en":"No tests delivered, tinkering project.","fr":"Aucun test livré, projet de bricolage."}},"build":{"system":"python","commands":["python3 run.py"],"entrypoints":["run.py"]},"files":["run.py","endGame.py","entities.py","game.py","README.md"],"codePath":"run.py","code":"$4","images":[{"base":"/assets/projects/perso-pong-2020/Victoire_final_B","alt":"Pong — screenshot","width":1050,"height":500},{"base":"/assets/projects/perso-pong-2020/Victoire_final_R","alt":"Pong — screenshot","width":1050,"height":500}]},"locale":"en"}]],null,"$L5"]}],"isPartial":"$@6","staleTime":"$7","varyParams":null},{"rsc":"$L8","isPartial":"$@9","staleTime":"$7","varyParams":null},{"rsc":"$La","isPartial":"$@b","staleTime":"$7","varyParams":"$c"},{"rsc":"$Ld","isPartial":"$@e","staleTime":"$7","varyParams":"$c"}],"isUpgradeableISRFallback":false,"a":"$@f","rootVaryParams":null,"needsRuntimeRequest":"$@10"}
+11:I[6041,[],"OutletBoundary"]
+12:"$Sreact.suspense"
+14:I[6041,[],"ViewportBoundary"]
+15:I[6041,[],"MetadataBoundary"]
+16:I[1468,[],"IconMark"]
+17:I[7676,[],""]
+18:I[2570,[],""]
+5:["$","$L11",null,{"children":["$","$12",null,{"name":"Next.MetadataOutlet","children":"$@13"}]}]
+8:["$","$1","h",{"children":[null,["$","$L14",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1, minimum-scale=1, viewport-fit=cover"}],["$","meta","2",{"name":"theme-color","content":"#050703"}]]}],["$","div",null,{"hidden":true,"children":["$","$L15",null,{"children":["$","$12",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"PONG // back_in_school"}],["$","meta","1",{"name":"description","content":"Two-player Pong in Python: the 1972 game that launched the entire video game industry."}],["$","meta","2",{"name":"author","content":"Antoine Poisson"}],["$","link","3",{"rel":"manifest","href":"/Old-School-Projects/manifest.json"}],["$","meta","4",{"name":"keywords","content":"portfolio,software archive,epitech,c,c++,systems programming"}],["$","meta","5",{"name":"creator","content":"Antoine Poisson"}],["$","meta","6",{"name":"publisher","content":"Antoine Poisson"}],["$","meta","7",{"name":"robots","content":"index, follow"}],["$","link","8",{"rel":"canonical","href":"https://antoinepoisson.github.io/Old-School-Projects/projects/perso-pong-2020/"}],["$","link","9",{"rel":"alternate","hrefLang":"en-US","href":"https://antoinepoisson.github.io/Old-School-Projects/projects/perso-pong-2020/"}],["$","link","10",{"rel":"alternate","hrefLang":"fr-FR","href":"https://antoinepoisson.github.io/Old-School-Projects/fr/projects/perso-pong-2020/"}],["$","link","11",{"rel":"alternate","hrefLang":"x-default","href":"https://antoinepoisson.github.io/Old-School-Projects/projects/perso-pong-2020/"}],["$","meta","12",{"name":"format-detection","content":"telephone=no, address=no, email=no"}],["$","meta","13",{"name":"mobile-web-app-capable","content":"yes"}],["$","meta","14",{"name":"apple-mobile-web-app-title","content":"back_in_school"}],["$","meta","15",{"name":"apple-mobile-web-app-status-bar-style","content":"default"}],["$","meta","16",{"property":"og:title","content":"Pong"}],["$","meta","17",{"property":"og:description","content":"Two-player Pong in Python: the 1972 game that launched the entire video game industry."}],["$","meta","18",{"property":"og:url","content":"https://antoinepoisson.github.io/Old-School-Projects/projects/perso-pong-2020/"}],["$","meta","19",{"property":"og:site_name","content":"back_in_school"}],["$","meta","20",{"property":"og:locale","content":"en_US"}],["$","meta","21",{"property":"og:image","content":"https://antoinepoisson.github.io/Old-School-Projects/og-image.png"}],["$","meta","22",{"property":"og:image:width","content":"1200"}],["$","meta","23",{"property":"og:image:height","content":"630"}],["$","meta","24",{"property":"og:image:alt","content":"PONG // back_in_school"}],["$","meta","25",{"property":"og:type","content":"article"}],["$","meta","26",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","27",{"name":"twitter:site","content":"@jasd"}],["$","meta","28",{"name":"twitter:title","content":"PONG // back_in_school"}],["$","meta","29",{"name":"twitter:description","content":"Two-player Pong in Python: the 1972 game that launched the entire video game industry."}],["$","meta","30",{"name":"twitter:image","content":"https://antoinepoisson.github.io/Old-School-Projects/og-image.png"}],["$","link","31",{"rel":"icon","href":"/Old-School-Projects/icons/favicon.svg","type":"image/svg+xml"}],["$","link","32",{"rel":"icon","href":"/Old-School-Projects/icons/favicon-32x32.png","sizes":"32x32","type":"image/png"}],["$","link","33",{"rel":"apple-touch-icon","href":"/Old-School-Projects/icons/apple-touch-icon.png","sizes":"180x180"}],["$","$L16","34",{}]]}]}]}],null]}]
+a:["$","$1","c",{"children":[null,["$","$L17",null,{"parallelRouterKey":"children","template":["$","$L18",null,{}]}]]}]
+d:["$","$1","c",{"children":[null,["$","$L17",null,{"parallelRouterKey":"children","template":["$","$L18",null,{}]}]]}]
+10:true
+13:null
+7:300
+7:C
+f:0
+9:"$undefined"
+b:"$undefined"
+e:"$undefined"
+6:"$undefined"

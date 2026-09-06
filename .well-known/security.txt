@@ -1,0 +1,7 @@
+# security.txt — RFC 9116
+# https://securitytxt.org/
+
+Contact: mailto:contact@jasd.co
+Expires: 2027-08-03T00:00:00.000Z
+Canonical: https://jasd.co/.well-known/security.txt
+Preferred-Languages: en, fr
