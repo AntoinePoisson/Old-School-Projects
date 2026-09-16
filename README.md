@@ -223,4 +223,4 @@ display/device forwarding or the project-specific containers documented in their
 
 ## License
 
-See [`LICENSE`](LICENSE).
+See the [`LICENSE`](LICENSE) file.
